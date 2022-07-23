@@ -3,6 +3,7 @@ import Banner from '../../components/Banner/Banner';
 import Featured from '../../components/Featured/Featured';
 import Introduction from '../../components/Introduction/Introduction';
 import NFT from '../../components/NFT/NFT';
+import Premium from '../../components/Premium/Premium';
 import RoadMap from '../../components/RoadMap/RoadMap';
 import Stramer from '../../components/Streamer/Stramer';
 
@@ -15,6 +16,7 @@ const Home = () => {
             <RoadMap/>
             <NFT/>
             <Featured/>
+            <Premium/>
         </div>
     );
 };
