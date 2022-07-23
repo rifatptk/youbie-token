@@ -1,0 +1,126 @@
+.tokenomics-section{
+    width: 100%;
+    background: #100032;
+}
+
+.container {
+    max-width: 96%;
+    position: relative;
+    z-index: inherit;
+  }
+/* Tokenomics */
+.tokenomics .tokenomics__img {
+    text-align: center;
+  }
+  
+  .tokenomics__img img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    animation: bouncing 2.5s ease-out 100ms infinite;
+  }
+  
+  .tokenomics .heading__1 {
+    color: var(--white, #ffffff);
+    font-family: "Neuropol", sans-serif;
+    font-weight: 400;
+    margin-bottom: 3rem;
+  }
+  
+  .tokenomics .stat-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 2rem 1rem;
+  }
+  
+  .stat-list .stat-list__item {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    text-align: center;
+  }
+  
+  .stat-list__item .stat-item__percentage {
+    width: 4rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    background-color: var(--green-300, #8fcf33);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: calc(0.625rem + 1vmin);
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .stat-list__item:nth-child(2) .stat-item__percentage {
+    background-color: var(--green-400, #16b46c);
+  }
+  
+  .stat-list__item:nth-child(3) .stat-item__percentage {
+    background-color: var(--blue-500, #0c8dac);
+  }
+  
+  .stat-list__item:nth-child(4) .stat-item__percentage {
+    background-color: var(--pink-300, #cb0e52);
+  }
+  
+  .stat-list__item:nth-child(5) .stat-item__percentage {
+    background-color: var(--red-300, #f65e5c);
+  }
+  
+  .stat-list__item .stat-item__title {
+    font-family: "Neuropol", sans-serif;
+    font-size: 1rem;
+    color: var(--white, #ffffff);
+    margin-bottom: 0.5rem;
+  }
+  
+  .stat-list__item .stat-item__text {
+    color: var(--white, #ffffff);
+    font-size: 0.8125rem;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media screen and (min-width: 576px) {
+      /* Tokenomics  */
+  .stat-list .stat-list__item {
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
+  }
+  }
+  @media screen and (min-width: 768px) {
+    /* Tokenomics */
+  .tokenomics .stat-list {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  .stat-list .stat-list__item {
+    text-align: left;
+  }
+  .stat-list__item .stat-item__percentage {
+    margin-left: unset;
+  }
+  }

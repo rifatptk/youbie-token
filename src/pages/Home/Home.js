@@ -6,6 +6,7 @@ import NFT from '../../components/NFT/NFT';
 import Premium from '../../components/Premium/Premium';
 import RoadMap from '../../components/RoadMap/RoadMap';
 import Stramer from '../../components/Streamer/Stramer';
+import Tokenomic from '../../components/Tokenomic/Tokenomic';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <NFT/>
             <Featured/>
             <Premium/>
+            <Tokenomic/>
         </div>
     );
 };
