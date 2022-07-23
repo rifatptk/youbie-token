@@ -261,7 +261,6 @@ const NFT = () => {
                 </ul>
               </div>
             </SplideSlide>
-
         </Splide>
            
             <div  className="load-more">
