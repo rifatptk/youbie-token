@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../../components/Banner/Banner';
 import Introduction from '../../components/Introduction/Introduction';
+import RoadMap from '../../components/RoadMap/RoadMap';
 import Stramer from '../../components/Streamer/Stramer';
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
             <Banner/>
             <Introduction/>
             <Stramer/>
+            <RoadMap/>
         </div>
     );
 };
