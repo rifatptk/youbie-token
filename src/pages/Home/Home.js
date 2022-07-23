@@ -7,6 +7,7 @@ import Premium from '../../components/Premium/Premium';
 import RoadMap from '../../components/RoadMap/RoadMap';
 import Stramer from '../../components/Streamer/Stramer';
 import Tokenomic from '../../components/Tokenomic/Tokenomic';
+import Tournament from '../../components/Tournament/Tournament';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <Featured/>
             <Premium/>
             <Tokenomic/>
+            <Tournament/>
         </div>
     );
 };
