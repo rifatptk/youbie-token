@@ -1,0 +1,192 @@
+.section {
+    padding: 7% 0;
+    position: relative;
+    z-index: 0;
+  }
+  .bg__holder {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: url('../../assets/images/trend-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .container {
+    max-width: 96%;
+    position: relative;
+    z-index: inherit;
+  }
+  /* NFTs */
+.nfts {
+  overflow: hidden;
+}
+
+.nfts::after {
+  content: "Nft";
+  text-transform: uppercase;
+  font-family: "Neuropol", sans-serif;
+  color: var(--white, #ffffff);
+  font-size: calc(4rem + 1vmin);
+  opacity: 0.07;
+  position: absolute;
+  top: 5%;
+  right: -1%;
+}
+
+.nfts .heading__1 {
+  font-family: "Neuropol", sans-serif;
+  color: var(--white, #ffffff);
+  font-weight: 400;
+}
+
+.nfts .user .streamer__tag {
+  font-size: calc(0.75rem + 1vmin);
+}
+
+.nfts .block {
+  font-size: calc(0.75rem + 1vmin);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: var(--white, #ffffff);
+}
+
+.nfts .block .text {
+  margin-bottom: 0;
+}
+
+.nfts .block .percentage {
+  font-size: calc(0.625rem + 1vmin);
+  color: var(--green-100, #18ff00);
+}
+
+.nfts .block .count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.875rem;
+}
+
+.nfts .block .count .icon .img-fluid {
+  max-width: 1.25rem;
+}
+/* Features */
+.features .heading__1 {
+  font-family: "Neuropol", sans-serif;
+  color: var(--white, #ffffff);
+  font-weight: 400;
+}
+
+.section__para {
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(0.875rem + 1vmin);
+  font-weight: 600;
+  letter-spacing: 0.125rem;
+  color: var(--white, #ffffff);
+  margin-bottom: 0;
+}
+
+.section__para.one {
+  color: var(--pink-200, #fc2ac3);
+}
+
+.section__para.two {
+  color: var(--blue-200, #0acfff);
+  margin-bottom: 3rem;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.feature-box .feature-box__img {
+  margin-bottom: 2rem;
+  min-height: 240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  animation: bouncing 2.5s ease-out 100ms infinite;
+}
+
+.feature-box .feature-box__img.one {
+  animation-delay: 250ms;
+}
+
+.feature-box .feature-box__img.three {
+  animation-delay: 150ms;
+}
+
+.feature-box__img img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  transition: 300ms ease;
+}
+
+.feature-box .feature-box__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(0.875rem + 1vmin);
+  font-weight: 600;
+  letter-spacing: 0.3125rem;
+  color: var(--blue-200, #0acfff);
+  margin-bottom: 1rem;
+}
+
+.feature-box .feature-box__text {
+  font-size: calc(0.5rem + 1vmin);
+  color: var(--white, #ffffff);
+}
+
+.feature-box .feature-box__link {
+  font-size: 0.75rem;
+  text-decoration: none;
+  padding: 0.25rem 0.75rem;
+  background-color: var(--pink-200, #fc2ac3);
+  color: var(--white, #ffffff);
+  font-weight: 800;
+  border-radius: 0.625rem;
+}
+.splide__slide{
+  width: 100%;
+}
+
+
+
+
+@media screen and (min-width: 992px) {
+/* NFTs */
+.nfts::after {
+  font-size: calc(9rem + 1vmin);
+}
+
+
+
+  }

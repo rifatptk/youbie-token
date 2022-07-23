@@ -56,9 +56,6 @@ const Stramer = () => {
          <p className="section__para two" >
            Hang-out with your favorite streamers!
          </p>
-        <div className="streamer-slider-items">
-
-        </div>
         <Splide aria-label="My Favorite Images"   options={sliderConfig}>
             <SplideSlide>
             <div class="card streamer-box" data-aos="fade-up">
