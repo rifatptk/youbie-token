@@ -1,0 +1,483 @@
+/* Small Devices */
+@media screen and (min-width: 576px) {
+  /* Hero */
+  .hero::before {
+    width: 500px;
+    height: 564px;
+    bottom: -3.375rem;
+  }
+
+  .hero__content .button-group .you-btn {
+    min-width: 146px;
+    max-width: 185px;
+  }
+
+  /* Tokenomics  */
+  .stat-list .stat-list__item {
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
+  }
+
+  /* Top Teams */
+  .top-teams .team-list {
+    -ms-grid-columns: (1fr) [3];
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .team-list .team-list__item:nth-child(2),
+  .team-list .team-list__item:nth-child(4),
+  .team-list .team-list__item:nth-child(8) {
+    border-right: none;
+  }
+
+  .team-list .team-list__item:nth-child(4),
+  .team-list .team-list__item:nth-child(10) {
+    border-left: 0.0625rem solid #230561;
+  }
+
+  /* Roadmap */
+  .roadmap__line {
+    margin-left: 15%;
+  }
+
+  /* Betting */
+  .betting__slider-thumbs {
+    -ms-grid-columns: (minmax(70px, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    grid-auto-rows: 110px;
+  }
+
+  /* Footer widgets */
+  .widget .widget__title {
+    text-align: left;
+  }
+
+  .footer-nav {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .footer-widgets .heading__1 {
+    text-align: left;
+  }
+
+  .footer-widgets .para {
+    text-align: left;
+  }
+
+  /* Betting */
+
+  .betting-thumbnail-carousel .splide__arrows .splide__arrow {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
+
+/* Medium Devices */
+@media screen and (min-width: 768px) {
+  /* Global Styles */
+  .section {
+    padding: 7% 0;
+  }
+
+  .heading__1 {
+    font-size: calc(1.875rem + 1vmin);
+  }
+
+  .heading__2 {
+    font-size: calc(1.625rem + 1vmin);
+  }
+
+  /* Reset Bootstrap */
+  .container {
+    max-width: 1320px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  /* Header */
+  .navigation-menu .container {
+    max-width: 1440px;
+  }
+
+  .brand .brand-logo {
+    width: 162px;
+  }
+
+  /* Hero */
+  .hero::before {
+    width: 700px;
+    height: 764px;
+    left: 4%;
+    bottom: -4.25rem;
+  }
+
+  /* Introduction */
+  .introduction .intro-img .img-fluid {
+    max-width: 100%;
+  }
+
+  /* Tokenomics */
+  .tokenomics .stat-list {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+
+  .stat-list .stat-list__item {
+    text-align: left;
+  }
+
+  .stat-list__item .stat-item__percentage {
+    margin-left: unset;
+  }
+
+  /* Top Teams */
+  .top-teams .team-list {
+    -ms-grid-columns: (1fr) [5];
+    grid-template-columns: repeat(5, 1fr);
+    display: -ms-grid;
+    display: grid;
+  }
+
+  .team-list .team-list__item:nth-child(3),
+  .team-list .team-list__item:nth-child(6),
+  .team-list .team-list__item:nth-child(9) {
+    border-right: none;
+  }
+
+  .team-list .team-list__item:nth-child(6) {
+    border-left: 0.0625rem solid #230561;
+  }
+
+  .team-list-splide {
+    display: none;
+  }
+
+  /* Roadmap */
+  .roadmap__line {
+    margin-left: unset;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .roadmap__line::before,
+  .roadmap__line::after {
+    top: 50%;
+  }
+
+  .roadmap__line::after {
+    left: unset;
+    right: 0;
+  }
+
+  .roadmap .heading__4 {
+    margin-bottom: 2.5rem;
+  }
+
+  .roadmap__line .line {
+    display: block;
+  }
+
+  .roadmap .quaters {
+    position: unset;
+  }
+
+  .roadmap .quaters::before {
+    display: none;
+  }
+
+  .roadmap .quaters [class^="quater-"] {
+    position: absolute;
+  }
+
+  .roadmap .quaters [class^="quater"]:nth-child(odd) .q-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .roadmap__line .icon-group .icon:nth-of-type(1) {
+    top: 44%;
+    left: 25%;
+    -webkit-transform: translateX(-25%);
+    transform: translateX(-25%);
+  }
+
+  .roadmap__line .icon-group .icon:nth-of-type(2) {
+    top: 48%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .roadmap__line .icon-group .icon:nth-of-type(3) {
+    top: 51.5%;
+    left: 75%;
+    -webkit-transform: translateX(-75%);
+    transform: translateX(-75%);
+  }
+
+  .roadmap [class^="quater"]:nth-of-type(1) {
+    left: 15%;
+    bottom: 68.5%;
+  }
+
+  .roadmap [class^="quater"]:nth-of-type(2) {
+    left: 35%;
+    top: 65%;
+  }
+
+  .roadmap [class^="quater"]:nth-of-type(3) {
+    left: 60%;
+    bottom: 62.75%;
+  }
+
+  .roadmap [class^="quater"]:nth-of-type(4) {
+    left: 78%;
+    top: 70%;
+  }
+
+  .roadmap [class^="quater"] .q-block::before {
+    display: none;
+  }
+
+  roadmap [class^="quater"] .q-block .heading__5 {
+    position: relative;
+    z-index: 0;
+  }
+
+  .roadmap [class^="quater"] .q-block .heading__5::before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--white, #ffffff);
+    border-radius: 50%;
+    left: 0;
+    -webkit-transform: translateX(1.125rem);
+    transform: translateX(1.125rem);
+  }
+
+  .roadmap .quater-1 .q-block .heading__5::before {
+    background-image: url("../images/tick.svg");
+    background-size: 0.75rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 18.5rem;
+  }
+
+  .roadmap .quater-2 .q-block .heading__5::before {
+    bottom: 20.25rem;
+  }
+
+  .roadmap .quater-3 .q-block .heading__5::before {
+    top: 19rem;
+  }
+  .roadmap .quater-4 .q-block .heading__5::before {
+    bottom: 19.75rem;
+  }
+
+  .roadmap [class^="quater"] .q-block::after {
+    height: 10rem;
+    top: 3.75rem;
+    right: unset;
+    left: 1.875rem;
+    width: unset;
+    border-left: 0.0625rem solid var(--blue-500, #0c8dac);
+  }
+
+  .roadmap [class^="quater"]:nth-child(odd) .q-block::after {
+    top: calc(100% - 0.5rem);
+  }
+
+  .roadmap [class^="quater"]:nth-child(even) .q-block::after {
+    top: unset;
+    bottom: 100%;
+  }
+
+  /* Testimonial */
+  .testimonial .tns-nav button {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  /* Betting */
+  .betting .feature__img {
+    height: 400px;
+  }
+}
+
+/* Large Devices */
+@media screen and (min-width: 992px) {
+  /* Header */
+  .nav-menu__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .user-details-btn .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .mobile-menu,
+  .menu-btn {
+    display: none;
+  }
+
+  /* Streamers */
+  .streamers::after {
+    font-size: calc(9rem + 1vmin);
+  }
+
+  /* NFTs */
+  .nfts::after {
+    font-size: calc(9rem + 1vmin);
+  }
+
+  /* Roadmap */
+  .roadmap__line {
+    min-height: 500px;
+  }
+
+  .roadmap [class^="quater"] .q-block::after {
+    height: 5rem;
+  }
+
+  .roadmap [class^="quater"]:nth-of-type(2) {
+    top: 64%;
+  }
+
+  .roadmap [class^="quater"]:nth-of-type(3) {
+    bottom: 60%;
+  }
+
+  .roadmap [class^="quater"]:nth-of-type(4) {
+    left: 77%;
+  }
+
+  .roadmap .quater-1 .q-block .heading__5::before {
+    top: 14rem;
+  }
+
+  .roadmap .quater-2 .q-block .heading__5::before {
+    bottom: 15.5rem;
+  }
+
+  .roadmap .quater-3 .q-block .heading__5::before {
+    top: 14.75rem;
+  }
+
+  .roadmap .quater-4 .q-block .heading__5::before {
+    bottom: 13.875rem;
+  }
+
+  .roadmap__line .icon-group .icon:nth-of-type(1) {
+    top: 40%;
+    left: 28%;
+  }
+
+  .roadmap__line .icon-group .icon:nth-of-type(2) {
+    top: 48%;
+    left: 52%;
+  }
+}
+
+/* Extra Large Devices */
+@media screen and (min-width: 1200px) {
+  /* Header */
+  .cta-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  /* Hero */
+  .hero .hero__content {
+    margin-right: unset;
+  }
+
+  /* Roadmap */
+  .roadmap__line {
+    min-height: 400px;
+  }
+
+  .roadmap__line .icon-group .icon:nth-of-type(1) {
+    top: 35%;
+  }
+
+  .roadmap__line .icon-group .icon:nth-of-type(2) {
+    top: 48%;
+  }
+
+  .roadmap__line .icon-group .icon:nth-of-type(3) {
+    top: 54%;
+  }
+
+  .roadmap__line .q-block {
+    max-width: 220px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 3.75rem 1fr;
+    grid-template-columns: 3.75rem 1fr;
+  }
+
+  .roadmap [class^="quater"] .q-block::after {
+    height: 9rem;
+  }
+
+  .roadmap [class^="quater"]:nth-of-type(odd) .q-block::after {
+    top: 3.75rem;
+  }
+
+  .roadmap [class^="quater"]:nth-of-type(1) {
+    bottom: 83%;
+  }
+
+  .roadmap [class^="quater"]:nth-of-type(2) {
+    top: 80%;
+  }
+
+  .roadmap [class^="quater"]:nth-of-type(3) {
+    bottom: 67%;
+  }
+
+  .roadmap [class^="quater"]:nth-of-type(4) {
+    top: 95%;
+  }
+
+  .roadmap .quater-1 .q-block .heading__5::before {
+    top: 12rem;
+  }
+
+  .roadmap .quater-3 .q-block .heading__5::before {
+    top: 12.5rem;
+  }
+
+  .roadmap .quater-4 .q-block .heading__5::before {
+    bottom: 14.75rem;
+  }
+
+  .roadmap .quater-4 .q-block .content {
+    width: 150px;
+    -webkit-transform: translate(-1rem, -90%);
+    transform: translate(-1rem, -90%);
+  }
+}
+
+/* Extra Extra Large Devices */
+@media screen and (min-width: 1400px) {
+  /* Reset Bootstrap */
+  .container {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}

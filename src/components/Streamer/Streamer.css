@@ -1,0 +1,194 @@
+.section {
+    padding: 20% 0;
+    position: relative;
+    z-index: 0;
+  }
+  .bg__holder {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .container {
+    max-width: 96%;
+    position: relative;
+    z-index: inherit;
+  }
+  
+/* Streamers */
+.streamers {
+    overflow: hidden;
+  }
+  
+  .streamers::after {
+    content: "Stream";
+    text-transform: uppercase;
+    font-family: "Neuropol", sans-serif;
+    color: var(--white, #ffffff);
+    font-size: calc(4rem + 1vmin);
+    opacity: 0.07;
+    position: absolute;
+    top: 5%;
+    right: -7%;
+  }
+  
+  .streamers .heading__1 {
+    font-family: "Neuropol", sans-serif;
+    color: var(--white, #ffffff);
+    font-weight: 400;
+  }
+  
+  .section .card {
+    border: none;
+    border-radius: 1.125rem;
+    background-color: var(--purple-400, #100032);
+    height: 100%;
+  }
+  
+  .section .card .card-img-top {
+    height: 196px;
+    overflow: hidden;
+    border-radius: 1.125rem 1.125rem 0 0;
+  }
+  
+  .section .card .card-img-top:first-of-type img {
+    border-radius: 1.125rem 1.125rem 0 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+  }
+  
+  .card {
+    position: relative;
+    z-index: inherit;
+  }
+  
+  .strech__link {
+    position: absolute;
+    inset: 0;
+  }
+  
+  .section .card img {
+    transition: 300ms ease;
+  }
+  
+  .card:hover .card-img-top img {
+    transform: scale(1.125);
+  }
+  
+  .section .card .card-body {
+    padding-top: 0;
+  }
+  
+  .card .user {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: -1rem;
+  }
+  
+  .user .user__icon {
+    width: 4.875rem;
+    height: 4.875rem;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .user__icon .img-fluid {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+  }
+  
+  .user .streamer__tag {
+    color: var(--white, #ffffff);
+    font-size: 0.8125rem;
+    letter-spacing: 0.0625rem;
+    margin-top: -1rem;
+  }
+  
+  .streamers .card .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .streamers .card .title .card-title {
+    color: var(--white, #ffffff);
+    font-size: calc(0.5rem + 1vmin);
+    margin-bottom: 0;
+    letter-spacing: 0.0625rem;
+  }
+  
+  .streamers .card .title .is-live {
+    background-color: var(--red-100, #ff0000);
+    font-size: 0.5rem;
+    letter-spacing: 0.0625rem;
+    font-weight: 800;
+    padding: 0.125rem 0.625rem;
+    border-radius: 0.3125rem;
+    color: var(--white, #ffffff);
+    display: inline-block;
+  }
+  
+  .streamers .title .img-fluid {
+    height: 1rem;
+    width: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+  }
+  
+  .section .card .card-text {
+    font-size: 0.8215rem;
+    color: var(--white, #ffffff);
+    margin-top: 0.5rem;
+  }
+  
+  .load-more {
+    text-align: center;
+    margin-top: 4rem;
+  }
+  
+  .load-more .you-btn {
+    background: transparent;
+    border: 0.125rem solid var(--white, #ffffff);
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  
+  .load-more .you-btn:hover {
+    background-color: var(--white, #ffffff);
+    color: var(--purple-400, #100032);
+  }
+    

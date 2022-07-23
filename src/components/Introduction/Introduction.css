@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Neuropol";
+    src: url("../../assets/fonts/neuropol/neuropol.otf");
+    font-style: normal;
+  }
+
+/* Introduction */
+.introduction-section{
+    background: #100032;
+}
+ .heading__2 {
+    font-size: calc(1.5rem + 1vmin);
+    font-weight: 700;
+    font-family: "Neuropol", sans-serif;
+    color: #ffffff!important;
+    margin-top: 2.5rem;
+    margin-bottom: 3.5rem;
+    font-weight: 400;
+  }
+   .para {
+    margin-bottom: 2.5rem;
+  }
+  
+.intro-img {
+    text-align: center;
+    position: relative;
+    z-index: inherit;
+  }
+  
+  @keyframes bouncing {
+    0% {
+      transform: translate3d(0, 3%, 0);
+    }
+    50% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(0, 3%, 0);
+    }
+  }
+  
+  .introduction .intro-img .img-fluid {
+    max-width: 70%;
+  }
