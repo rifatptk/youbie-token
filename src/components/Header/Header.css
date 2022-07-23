@@ -84,7 +84,7 @@
   display: none;
 }
 
-.you-btn {
+.header-main .you-btn {
   background-image: -webkit-linear-gradient(
     112deg,
      #7802af 0%,
@@ -109,7 +109,7 @@
   display: inline-block;
 }
 
-.you-btn:hover {
+.header-main .you-btn:hover {
   color: #ffffff;
   background-image: -webkit-linear-gradient(
     112deg,

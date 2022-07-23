@@ -199,13 +199,12 @@
   
   .load-more .you-btn {
     background: transparent;
-    border: 0.125rem solid var(--white, #ffffff);
+    border: 0.125rem solid #ffffff;
     padding-left: 3rem;
     padding-right: 3rem;
   }
   
   .load-more .you-btn:hover {
-    background-color: var(--white, #ffffff);
-    color: var(--purple-400, #100032);
+    background-color: #ffffff;
+    color: #100032;
   }
-  

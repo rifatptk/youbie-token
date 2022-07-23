@@ -209,7 +209,7 @@ const Stramer = () => {
 
         </Splide>
          <div className="load-more">
-           <Link to="/" className="you-btn">Browse</Link>
+           <Link to="/" className="you-btn you-streamer-btn">Browse</Link>
          </div>
        </div>
      </section>
