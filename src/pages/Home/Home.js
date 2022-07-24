@@ -3,6 +3,7 @@ import Banner from '../../components/Banner/Banner';
 import Featured from '../../components/Featured/Featured';
 import Footer from '../../components/Footer/Footer';
 import Introduction from '../../components/Introduction/Introduction';
+import NewsFeed from '../../components/NewsFeed/NewsFeed';
 import NFT from '../../components/NFT/NFT';
 import Premium from '../../components/Premium/Premium';
 import RoadMap from '../../components/RoadMap/RoadMap';
@@ -25,7 +26,7 @@ const Home = () => {
             <Tokenomic/>
             <Tournament/>
             <TopTeam/>
-
+            <NewsFeed/>
             <Testimonial/>
             <Footer/>
         </div>

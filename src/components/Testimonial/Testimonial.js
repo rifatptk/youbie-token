@@ -2,8 +2,6 @@ import React from 'react';
 import './Testimonial.css';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
-import user1 from '../../assets/images/user-1.png';
-import user2 from '../../assets/images/user-2.png';
 import user3 from '../../assets/images/user-3.png';
 import user4 from '../../assets/images/user-4.png';
 import user5 from '../../assets/images/user-5.png';
