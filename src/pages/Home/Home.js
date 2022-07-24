@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../../components/Banner/Banner';
+import Betting from '../../components/Betting/Betting';
 import Featured from '../../components/Featured/Featured';
 import Footer from '../../components/Footer/Footer';
 import Introduction from '../../components/Introduction/Introduction';
@@ -26,6 +27,7 @@ const Home = () => {
             <Tokenomic/>
             <Tournament/>
             <TopTeam/>
+            <Betting/>
             <NewsFeed/>
             <Testimonial/>
             <Footer/>

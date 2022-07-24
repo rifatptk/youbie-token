@@ -87,7 +87,7 @@
   
   .newsfeed .card-box .readmore {
     text-decoration: none;
-    color: var(--white);
+    color: #fff;
     text-transform: uppercase;
     font-size: 0.875rem;
   }

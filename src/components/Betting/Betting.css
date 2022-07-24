@@ -1,0 +1,276 @@
+.section {
+    padding: 7% 0;
+    position: relative;
+    z-index: 0;
+  }
+.betting-section .bg__holder {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: url('../../assets/images/betting-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .container {
+    max-width: 96%;
+    position: relative;
+    z-index: inherit;
+  }
+
+
+
+
+/* Betting */
+.betting .heading__1 {
+    font-family: "Neuropol", sans-serif;
+    color: var(--white, #ffffff);
+    font-weight: 400;
+  }
+  
+  .betting .section__para.two {
+    margin-bottom: 1rem;
+  }
+  
+  .betting .para {
+    margin-bottom: 4rem;
+  }
+  
+  .betting .betting-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 3rem;
+  }
+  
+  .betting-list .betting-list__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .betting-list__item .item-img {
+    height: 68px;
+    width: 75px;
+    border-radius: 1.125rem;
+    overflow: hidden;
+  }
+  
+  .betting-list__item .item-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+  }
+  
+  .betting-list .details .betting__title {
+    font-size: calc(0.75rem + 1vmin);
+    color: var(--blue-400, #18b3e9);
+    font-weight: 600;
+    letter-spacing: 0.125rem;
+    margin-bottom: 0;
+  }
+  
+  .betting-list .details .betting__text {
+    font-size: calc(0.5rem + 1vmin);
+    color: var(--white, #ffffff);
+  }
+  
+  .betting .heading__3 {
+    font-size: calc(1rem + 1vmin);
+    font-weight: 400;
+    font-family: "Neuropol", sans-serif;
+    color: var(--white, #ffffff);
+  }
+  
+  .betting__slider {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 1.5rem;
+  }
+  
+  .betting__slider .slide {
+    border-radius: 1.125rem;
+    overflow: hidden;
+    -webkit-transition: 300ms ease;
+    transition: 300ms ease;
+  }
+  
+  .betting__slider .slide .slide__img {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+  }
+  
+  .betting__slider-thumbs {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(70px, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    grid-auto-rows: 65px;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .betting__slider-thumbs .thumb {
+    border-radius: 1.125rem;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .betting__slider-thumbs .thumb.tns-nav-active {
+    border: 0.125rem solid var(--blue-500, #0c8dac);
+  }
+  
+  .betting__slider-thumbs .thumb img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+  }
+  
+  .betting .slider-tools {
+    position: relative;
+    z-index: inherit;
+  }
+  
+  .betting__slider-controls .control-btn {
+    background-color: var(--purple-400, #100032);
+    border: none;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+  }
+  
+  .betting__slider-controls .control-btn > * {
+    width: 1rem;
+    height: auto;
+  }
+  
+  .betting__slider-controls .control-btn.prev {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 0;
+  }
+  
+  .betting__slider-controls .control-btn.next {
+    -webkit-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+    right: 0;
+  }
+  
+  .betting__slider-controls .control-btn.next > * {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  } */
+  
+  .betting-main-carousel {
+    margin-bottom: 1rem;
+  }
+  
+  .betting-main-carousel .splide__slide img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1.125rem;
+  }
+  
+  .betting-thumbnail-carousel .splide__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
+  
+  .betting-thumbnail-carousel
+    .splide__track--nav
+    > .splide__list
+    > .splide__slide.is-active {
+    border-radius: 0.5rem;
+  }
+  
+  .betting-thumbnail-carousel .splide__arrows .splide__arrow {
+    background-color: var(--purple-400, #100032);
+    opacity: 1;
+    border-radius: 50%;
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+  
+  .betting-thumbnail-carousel .splide__arrows .splide__arrow--prev {
+    left: 0;
+    transform: translate(-50%, -50%);
+  }
+  
+  .betting-thumbnail-carousel .splide__arrows .splide__arrow--next {
+    right: 0;
+    transform: translate(50%, -50%);
+  }
+  
+  .betting-thumbnail-carousel .splide__arrows .splide__arrow svg {
+    width: auto;
+    height: 0.75rem;
+  }
+
+/* Small Devices */
+@media screen and (min-width: 576px) {
+      /* Betting */
+  .betting__slider-thumbs {
+    -ms-grid-columns: (minmax(70px, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    grid-auto-rows: 110px;
+  }
+  .betting-thumbnail-carousel .splide__arrows .splide__arrow {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+   /* Betting */
+   .betting .feature__img {
+    height: 400px;
+  }
+}
+@media screen and (min-width: 768px) {
+     /* Betting */
+  .betting .feature__img {
+    height: 400px;
+  }
+}

@@ -46,7 +46,7 @@ const Stramer = () => {
 
 
     return (
-        <div classNameName='streamers'>
+        <div className='streamers-section'>
         <section id="streamers" className="streamers section">
        <div className="bg__holder"></div>
 

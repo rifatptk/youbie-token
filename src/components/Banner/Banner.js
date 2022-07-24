@@ -25,7 +25,8 @@ const handleCopyToClicpBoard = ()=>{
 
 
     return (
-          <section id="hero" className="hero section">
+      <div className="banner-section">
+              <section id="hero" className="hero section">
           <div className="bg__holder">
             <video
               className="bg__video"
@@ -90,6 +91,7 @@ const handleCopyToClicpBoard = ()=>{
             </div>
           </div>
         </section>
+      </div>
     );
 };
 
