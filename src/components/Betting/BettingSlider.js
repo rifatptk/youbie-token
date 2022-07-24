@@ -20,14 +20,16 @@ import trend4 from '../../assets/images/trend-4.png'
 
 
 const BettingSlider = ()=> {
-//   const [thumbsSwiper, setThumbsSwiper] = useState(null);
-
+  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+console.log(thumbsSwiper);
 
 
   return (
     <div className="swiper-slider-section">
       <Swiper
       loop={true}
+      spaceBetween={10}
+  
       modules={[FreeMode, Navigation, Thumbs]}
       className="SwiperTop"
       >
@@ -67,6 +69,7 @@ const BettingSlider = ()=> {
                 "--swiper-navigation-color": "#fff",
                 "--swiper-pagination-color": "#fff",
               }}
+        onSwiper={setThumbsSwiper}
         loop={true}
         navigation={true}
         spaceBetween={10}

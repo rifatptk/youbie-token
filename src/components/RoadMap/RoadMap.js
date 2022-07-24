@@ -54,9 +54,11 @@ const RoadMap = () => {
                       <div class="q-block">
                         <h5 class="heading__5">Q1</h5>
                         <div class="content">
-                          <h6 class="heading__6">Lorem ipsum dolor</h6>
+                          {/* <h6 class="heading__6"> </h6> */}
                           <p class="q-text">
-                            sit amet, consectetur adipiscing elit
+                           <span> ✓ UI/UX Live Streaming Platform </span><br />
+                           {/* <span> ✓ Begin Development of Live Streaming Platform  </span><br /> */}
+                           <span> ✓ Build Brand Identity</span>
                           </p>
                         </div>
                       </div>
@@ -65,9 +67,15 @@ const RoadMap = () => {
                       <div class="q-block">
                         <h5 class="heading__5">Q2</h5>
                         <div class="content">
-                          <h6 class="heading__6">Lorem ipsum dolor</h6>
+                          {/* <h6 class="heading__6"> </h6> */}
                           <p class="q-text">
-                            sit amet, consectetur adipiscing elit
+                          {/* <span>  ✓ Complete Live Streaming Development </span><br /> */}
+                             {/* <span>✓ Cryptocurrency Mainnet Integration (BTC,LTC,ETH)</span> <br /> */}
+                             {/* <span>✓ Premium Subscription Development / Integration </span><br /> */}
+                            <span> ✓ UI/UX NFT Marketplace </span><br />
+                             {/* <span>✓ NFT Marketplace Development </span><br /> */}
+                             {/* <span>✓ Smart Contract Bug Testing (NFT Marketplace) </span><br /> */}
+                            <span> ✓ Physical Marketplace UI/UX </span>
                           </p>
                         </div>
                       </div>
@@ -76,9 +84,15 @@ const RoadMap = () => {
                       <div class="q-block">
                         <h5 class="heading__5">Q3</h5>
                         <div class="content">
-                          <h6 class="heading__6">Lorem ipsum dolor</h6>
+                          {/* <h6 class="heading__6">Lorem ipsum dolor</h6> */}
                           <p class="q-text">
-                            sit amet, consectetur adipiscing elit
+                            {/* <span>✓ Physical Marketplace Development </span> <br /> */}
+                            {/* <span>✓ Physical Marketplace Bug Testing / Integration </span> <br />
+                            <span>✓ Integrate Web3 Wallets (Metamask, Walletconnect) </span> <br />
+                            <span>✓ Develop Youbie Token Smart Contrac</span> <br /> */}
+                            <span>✓ Exchange Listings </span> <br />
+                            <span>✓ Marketing Campaign I </span> <br />
+                            {/* <span>✓ Host Youbie Gaming Tournament </span> <br /> */}
                           </p>
                         </div>
                       </div>
@@ -87,9 +101,11 @@ const RoadMap = () => {
                       <div class="q-block">
                         <h5 class="heading__5">Q4</h5>
                         <div class="content">
-                          <h6 class="heading__6">Lorem ipsum dolor</h6>
+                          {/* <h6 class="heading__6">Lorem ipsum dolor</h6> */}
                           <p class="q-text">
-                            sit amet, consectetur adipiscing elit
+                          <span>✓ Marketing Campign II</span> <br />
+                          {/* <span>✓ Contract Top Streamers</span> <br /> */}
+                          <span>✓ Exchange Listings II</span> <br />
                           </p>
                         </div>
                       </div>
