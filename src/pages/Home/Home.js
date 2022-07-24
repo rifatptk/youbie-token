@@ -7,6 +7,7 @@ import NFT from '../../components/NFT/NFT';
 import Premium from '../../components/Premium/Premium';
 import RoadMap from '../../components/RoadMap/RoadMap';
 import Stramer from '../../components/Streamer/Stramer';
+import Testimonial from '../../components/Testimonial/Testimonial';
 import Tokenomic from '../../components/Tokenomic/Tokenomic';
 import TopTeam from '../../components/TopTeam/TopTeam';
 import Tournament from '../../components/Tournament/Tournament';
@@ -25,7 +26,7 @@ const Home = () => {
             <Tournament/>
             <TopTeam/>
 
-
+            <Testimonial/>
             <Footer/>
         </div>
     );

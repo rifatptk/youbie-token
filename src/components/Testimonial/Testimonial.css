@@ -1,0 +1,118 @@
+.section {
+    padding: 7% 0;
+    position: relative;
+    z-index: 0;
+  }
+.testimonial-section .bg__holder {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: url('../../assets/images/feedback-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .container {
+    max-width: 96%;
+    position: relative;
+    z-index: inherit;
+  }
+  
+
+/* Testimonial */
+.testimonial .heading__1 {
+    font-family: "Neuropol", sans-serif;
+    color:#ffffff;
+    font-weight: 400;
+  }
+  
+  .testimonial .para {
+    margin-bottom: 4rem;
+  }
+  
+  .testimonial__slider .splide__track {
+    list-style-type: none;
+    padding: 3rem 0;
+  }
+  
+  .testimonial__slider .card-box {
+    border-radius: 1.125rem;
+    background-color: #000000;
+    padding: 0 1.25rem 1.25rem;
+  }
+  
+  .testimonial__slider .card-box .user {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .testimonial__slider .user__img {
+    width: 4.25rem;
+    height: 4.25rem;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-bottom: -1rem;
+  }
+  
+  .testimonial__slider .card-box .card-box__title {
+    color:  #ffffff;
+    font-size: 0.9325rem;
+    letter-spacing: 0.125rem;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+  
+  .testimonial__slider .card-box .designation {
+    margin-bottom: 0;
+    letter-spacing: 0.125rem;
+    color:#ffffff;
+    font-size: 0.6875rem;
+  }
+  
+  .testimonial__slider .user__img .img-fluid {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+  }
+  
+  .testimonial .stars {
+    margin-bottom: 1rem;
+  }
+  .testimonial .stars span{
+    margin-left:.3rem;
+  }
+  .testimonial .card-box .card-box__text {
+    font-size: calc(0.3125rem + 1vmin);
+    color:#ffffff;
+    margin-bottom: 0;
+  }
+
+/* Medium Devices */
+@media screen and (min-width: 768px) {
+      /* Testimonial */
+  .testimonial .tns-nav button {
+    width: 1rem;
+    height: 1rem;
+  }
+}
