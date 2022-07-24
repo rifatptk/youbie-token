@@ -1,0 +1,113 @@
+.footer-section{
+    width: 100%;
+    background: #100032;
+}
+
+
+
+/* Footer widgets */
+.footer-widgets .heading__1 {
+    font-family: "Neuropol", sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .footer-widgets .para {
+    font-size: calc(0.5rem + 1vmin);
+    text-align: center;
+  }
+  
+  .widget {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .widget .widget__title {
+    font-size: calc(0.75rem + 1vmin);
+    letter-spacing: 0.125rem;
+    color:#01eaff;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .footer-nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 0.375rem;
+  }
+  
+  .footer-nav .footer-nav__item-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: calc(0.4325rem + 1vmin);
+    font-weight: 400;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    -webkit-transition: 300ms ease;
+    transition: 300ms ease;
+  }
+  
+  .footer-nav .footer-nav__item-link:hover {
+    opacity: 0.7;
+  }
+  
+  /* Copyright */
+  .copyright {
+    padding: 0.875rem 0;
+    border-top: 0.0625rem solid rgb(35, 5, 97);
+  }
+  
+  .copyright .text {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: calc(0.4325rem + 1vmin);
+    letter-spacing: 0.125rem;
+  }
+  
+
+@media screen and (min-width: 576px) {
+/* Footer widgets */
+.widget .widget__title {
+    text-align: left;
+  }
+
+  .footer-nav {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .footer-widgets .heading__1 {
+    text-align: left;
+  }
+
+  .footer-widgets .para {
+    text-align: left;
+  }
+
+
+  }

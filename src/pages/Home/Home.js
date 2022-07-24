@@ -1,12 +1,14 @@
 import React from 'react';
 import Banner from '../../components/Banner/Banner';
 import Featured from '../../components/Featured/Featured';
+import Footer from '../../components/Footer/Footer';
 import Introduction from '../../components/Introduction/Introduction';
 import NFT from '../../components/NFT/NFT';
 import Premium from '../../components/Premium/Premium';
 import RoadMap from '../../components/RoadMap/RoadMap';
 import Stramer from '../../components/Streamer/Stramer';
 import Tokenomic from '../../components/Tokenomic/Tokenomic';
+import TopTeam from '../../components/TopTeam/TopTeam';
 import Tournament from '../../components/Tournament/Tournament';
 
 const Home = () => {
@@ -21,6 +23,10 @@ const Home = () => {
             <Premium/>
             <Tokenomic/>
             <Tournament/>
+            <TopTeam/>
+
+
+            <Footer/>
         </div>
     );
 };
