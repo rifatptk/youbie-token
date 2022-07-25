@@ -35,7 +35,7 @@
 /* Betting */
 .betting .heading__1 {
     font-family: "Neuropol", sans-serif;
-    color: var(--white, #ffffff);
+    color:#ffffff;
     font-weight: 400;
   }
   
@@ -202,7 +202,7 @@
   .betting__slider-controls .control-btn.next > * {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
-  } */
+  } 
   
   .betting-main-carousel {
     margin-bottom: 1rem;

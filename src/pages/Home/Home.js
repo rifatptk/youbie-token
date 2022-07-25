@@ -11,7 +11,6 @@ import RoadMap from '../../components/RoadMap/RoadMap';
 import Stramer from '../../components/Streamer/Stramer';
 import Testimonial from '../../components/Testimonial/Testimonial';
 import Tokenomic from '../../components/Tokenomic/Tokenomic';
-import TopTeam from '../../components/TopTeam/TopTeam';
 import Tournament from '../../components/Tournament/Tournament';
 
 const Home = () => {
@@ -26,7 +25,6 @@ const Home = () => {
             <Premium/>
             <Tokenomic/>
             <Tournament/>
-            {/* <TopTeam/> */}
             <Betting/>
             <NewsFeed/>
             <Testimonial/>
