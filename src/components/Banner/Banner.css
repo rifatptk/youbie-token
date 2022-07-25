@@ -230,10 +230,6 @@
     min-width: 146px;
     max-width: 185px;
   }
-  .banner-section .section {
-    padding: 20% 0;
-  }
-  
 }
 @media screen and (max-width: 576px) {
   /* Hero */

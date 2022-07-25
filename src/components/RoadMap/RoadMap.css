@@ -7,6 +7,12 @@
     position: relative;
     z-index: inherit;
   }
+.roadmap-section .section {
+    padding: 7% 0;
+    position: relative;
+    z-index: 0;
+  }
+
 /* Roadmap */
 .roadmap__line {
     position: relative;

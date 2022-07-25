@@ -2,9 +2,11 @@
     width: 100%;
     background: #100032;
 }
-
-
-
+.footer-section .section {
+  padding: 7% 0;
+  position: relative;
+  z-index: 0;
+}
 /* Footer widgets */
 .footer-widgets .heading__1 {
     font-family: "Neuropol", sans-serif;

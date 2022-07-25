@@ -16,3 +16,8 @@ Link{
 body{
   font-family: 'Montserrat', sans-serif!important
 }
+.section {
+  padding: 7% 0;
+  position: relative;
+  z-index: 0;
+}
