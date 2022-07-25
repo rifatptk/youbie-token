@@ -208,3 +208,8 @@
     background-color: #ffffff;
     color: #100032;
   }
+/* Splide js */
+.splide__pagination {
+  position: static;
+  margin: 2rem auto;
+}
