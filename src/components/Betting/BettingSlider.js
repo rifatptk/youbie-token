@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import './BettingSlider.css'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -20,8 +20,8 @@ import trend4 from '../../assets/images/trend-4.png'
 
 
 const BettingSlider = ()=> {
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
-console.log(thumbsSwiper);
+//   const [thumbsSwiper, setThumbsSwiper] = useState(null);
+
 
 
   return (
@@ -69,7 +69,6 @@ console.log(thumbsSwiper);
                 "--swiper-navigation-color": "#fff",
                 "--swiper-pagination-color": "#fff",
               }}
-        onSwiper={setThumbsSwiper}
         loop={true}
         navigation={true}
         spaceBetween={10}

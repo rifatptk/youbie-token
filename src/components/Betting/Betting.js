@@ -3,7 +3,6 @@ import './Betting.css';
 import trend1 from '../../assets/images/trend-1.png'
 import trend2 from '../../assets/images/trend-2.png'
 import trend3 from '../../assets/images/trend-3.png'
-import trend4 from '../../assets/images/trend-4.png'
 import "@splidejs/react-splide/css";
 import BettingSlider from './BettingSlider';
 

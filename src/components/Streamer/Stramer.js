@@ -58,7 +58,7 @@ const Stramer = () => {
          </p>
         <Splide aria-label="My Favorite Images"   options={sliderConfig}>
             <SplideSlide>
-            <div class="card streamer-box" data-aos="fade-up">
+            <div className="card streamer-box" data-aos="fade-up">
                       <Link to="/" className="strech__link"></Link>
                       <div className="card-img-top">
                         <img
