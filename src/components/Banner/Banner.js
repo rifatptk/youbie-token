@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import './Banner.css'
 import { Link } from 'react-router-dom';
-import video from '../../assets/videos//hero-bg.mp4'
+import video from '../../assets/videos/hero-bg.mp4'
 import youbieLogo from '../../assets/images/youbie.png';
 import heroBg from '../../assets/images/hero-bg.png'
 import copyIcon from '../../assets/images/copy-icon.svg';

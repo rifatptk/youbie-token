@@ -28,10 +28,6 @@ const handleMobileMenu = ()=>{
 }
 
 
-
-
-
-
   return (
     <header id="main-header" className="header-main">
     <nav className="navigation-menu">

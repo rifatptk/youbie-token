@@ -26,7 +26,7 @@ const Home = () => {
             <Premium/>
             <Tokenomic/>
             <Tournament/>
-            <TopTeam/>
+            {/* <TopTeam/> */}
             <Betting/>
             <NewsFeed/>
             <Testimonial/>
