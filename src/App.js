@@ -1,5 +1,5 @@
 import './App.css';
-import './assets/css/responsive.css'
+
 import 'bootstrap/dist/js/bootstrap.min.js'
 import 'bootstrap/dist/css/bootstrap.min.css' 
 import Home from './pages/Home/Home';
