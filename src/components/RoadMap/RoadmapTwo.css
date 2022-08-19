@@ -1,0 +1,26 @@
+.roadmap-two{
+    width: 100%;
+    background: #100032;
+}
+.roadmap-item h4, h5, p{
+    color: #cecece;
+}
+.roadmap-item h4{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.roadmap-item h5{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.roadmap-item p{
+    font-size: 14px;
+    padding: 0 50px;
+}
+.active-title{
+    color: red!important;
+    font-weight: 700;
+}
+.active-sub-title{
+    color: #fff!important;
+}
