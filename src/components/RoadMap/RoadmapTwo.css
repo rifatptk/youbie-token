@@ -79,6 +79,8 @@
 .road-line .circle.activeCircle{
     animation-name: circleIncreaser;
     animation-duration: 2s;
+    background: red;
+    transition: 2s;
 }
 
 @keyframes widthIncreaser{
