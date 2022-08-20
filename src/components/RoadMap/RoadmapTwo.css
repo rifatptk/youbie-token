@@ -1,8 +1,13 @@
 .roadmap-two{
     width: 100%;
+    padding: 100px 0;
     background: #100032;
 }
-.roadmap-item h4, h5, p{
+.roadmap-item{
+    position: relative;
+    width: 100%;
+}
+.roadmap-item h4{
     color: #cecece;
 }
 .roadmap-item h4{
@@ -13,9 +18,22 @@
     font-size: 15px;
     text-transform: uppercase;
 }
-.roadmap-item p{
+.roadmap-item ul{
+    list-style-type: none;
+    padding-top: 30px;
+}
+.roadmap-item ul li {
     font-size: 14px;
     padding: 0 50px;
+    color: #cecece;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.roadmap-item ul li span{
+    padding-right:5px;
+}
+.swiper-slide{
+    align-items:flex-start!important;
 }
 .active-title{
     color: red!important;
@@ -23,4 +41,59 @@
 }
 .active-sub-title{
     color: #fff!important;
+}
+.road-line{
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background: #777777;
+}
+.road-line.activeSlide::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    left: 0;
+    background: #ff1313;
+    animation: widthIncreaser 3s;
+}
+.road-line::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #777777;
+}
+.road-line .circle{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 48%;
+    top: -6px;
+    border-radius: 50%;
+    border: 1px solid #777777;;
+    background:#100032;
+    z-index: 999;
+
+}
+.road-line .circle.activeCircle{
+    animation-name: circleIncreaser;
+    animation-duration: 2s;
+}
+
+@keyframes widthIncreaser{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
+@keyframes circleIncreaser{
+    0%{
+        background:#100032;
+    }
+    100%{
+        background:#ff1313;
+    }
 }
