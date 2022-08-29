@@ -1,6 +1,6 @@
 #timeline {
   // font-family: "Neuropol", sans-serif;
-  height: 500px;
+  height: 650px;
   position: relative;
   overflow: hidden;
   #line {
@@ -13,142 +13,64 @@
   }
   #container {
     height: 100%;
+    width: 100%;
+    background-color: #100032;
     display: flex;
-
-    #left {
-      flex: 5;
-      height: 100%;
-      width: 100%;
-      background-color: #7652d2;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      &::before {
-        content: "ROADMAP";
-        font-weight: bold;
-        color: white;
-        font-size: 40px;
-        position: absolute;
-        top: 20px;
-      }
-      &::after {
-        content: "2018";
-        font-weight: bold;
-        color: white;
-        font-size: 30px;
-        position: absolute;
-        top: 80px;
-      }
-      .timestamp {
-        width: 36px;
-        height: 36px;
-        background-color: #ffa500;
-        outline: 6px solid white;
-        border-radius: 50%;
-        color: white;
-        display: grid;
-        place-items: center;
-        position: relative;
-        z-index: 3;
-        cursor: pointer;
-        transition: outline-offset 0.2s ease-out;
-
-        .points {
-          width: 240px;
-          height: fit-content;
-          position: absolute;
-          top: 200%;
-          background-color: white;
-          color: black;
-          font-size: 12px;
-          border: 8px solid white;
-          border-radius: 16px;
-
-          &::before {
-            content: "";
-            width: 6px;
-            height: 22px;
-            background-color: white;
-            position: absolute;
-            z-index: -1;
-            top: -30px;
-            left: 49%;
-          }
-        }
-        &:nth-child(even) {
-          .points {
-            top: -500%;
-            &::before {
-              height: 104px;
-              top: 54px;
-              background-color: white;
-              z-index: -1;
-            }
-          }
-        }
-      }
+    justify-content: space-around;
+    align-items: center;
+    &::before {
+      content: "ROADMAP";
+      font-weight: bold;
+      color: white;
+      font-size: 48px;
+      position: absolute;
+      top: 60px;
     }
-    #right {
-      flex: 7;
-      height: 100%;
-      width: 100%;
-      background-color: #9b75de;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      &::after {
-        content: "2019";
-        font-weight: bold;
-        color: white;
-        font-size: 30px;
+
+    .timestamp {
+      width: 36px;
+      height: 36px;
+      background-color: #ffa500;
+      outline: 6px solid white;
+      border-radius: 50%;
+      color: white;
+      display: grid;
+      place-items: center;
+      position: relative;
+      z-index: 3;
+      cursor: pointer;
+      transition: outline-offset 0.2s ease-out;
+
+      .points {
+        width: 240px;
+        height: fit-content;
         position: absolute;
-        top: 80px;
-      }
-      .timestamp {
-        width: 36px;
-        height: 36px;
-        background-color: #ffa500;
-        outline: 6px solid white;
-        border-radius: 50%;
-        color: white;
-        display: grid;
-        place-items: center;
-        position: relative;
-        z-index: 3;
-        cursor: pointer;
-        transition: outline-offset 0.2s ease-out;
+        top: 200%;
+        background-color: white;
+        color: black;
+        font-size: 12px;
+        border: 8px solid white;
+        border-radius: 16px;
 
-        .points {
-          width: 240px;
-          height: fit-content;
-          position: absolute;
-          top: 200%;
+        &::before {
+          content: "";
+          width: 6px;
+          height: 22px;
           background-color: white;
-          color: black;
-          font-size: 12px;
-          border: 8px solid white;
-          border-radius: 16px;
-
-          &::before {
-            content: "";
-            width: 6px;
-            height: 22px;
-            background-color: white;
-            position: absolute;
-            z-index: -1;
-            top: -30px;
-            left: 49%;
-          }
+          position: absolute;
+          z-index: -1;
+          top: -30px;
+          left: 49%;
         }
-        &:nth-child(even) {
-          .points {
-            top: -500%;
-            &::before {
-              height: 104px;
-              top: 54px;
-              background-color: white;
-              z-index: -1;
-            }
+      }
+      &:nth-child(even) {
+        .points {
+          top: -800%;
+          &::before {
+            height: 212px;
+            top: 54px;
+            background-color: white;
+            z-index: -1;
           }
         }
       }
