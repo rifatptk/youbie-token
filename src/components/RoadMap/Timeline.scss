@@ -1,0 +1,46 @@
+#timeline {
+  height: 500px;
+  position: relative;
+  #line {
+    height: 4px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  #container {
+    height: 100%;
+    display: flex;
+
+    #left {
+      flex: 5;
+      height: 100%;
+      width: 100%;
+      background-color: #7652d2;
+    }
+    #right {
+      flex: 7;
+      height: 100%;
+      width: 100%;
+      background-color: #9b75de;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .timestamp {
+        width: 36px;
+        height: 36px;
+        background-color: #ffa500;
+        outline: 6px solid white;
+        // outline-offset: 8px;
+        border-radius: 50%;
+        font-weight: bold;
+        color: white;
+        display: grid;
+        place-items: center;
+        position: relative;
+        z-index: 2;
+      }
+    }
+  }
+}
