@@ -1,6 +1,8 @@
 #timeline {
+  // font-family: "Neuropol", sans-serif;
   height: 500px;
   position: relative;
+  overflow: hidden;
   #line {
     height: 4px;
     width: 100%;
@@ -18,6 +20,74 @@
       height: 100%;
       width: 100%;
       background-color: #7652d2;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      &::before {
+        content: "ROADMAP";
+        font-weight: bold;
+        color: white;
+        font-size: 40px;
+        position: absolute;
+        top: 20px;
+      }
+      &::after {
+        content: "2018";
+        font-weight: bold;
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        top: 80px;
+      }
+      .timestamp {
+        width: 36px;
+        height: 36px;
+        background-color: #ffa500;
+        outline: 6px solid white;
+        border-radius: 50%;
+        color: white;
+        display: grid;
+        place-items: center;
+        position: relative;
+        z-index: 3;
+        cursor: pointer;
+        transition: outline-offset 0.2s ease-out;
+
+        .points {
+          width: 240px;
+          height: fit-content;
+          position: absolute;
+          // z-index: 3;
+          top: 200%;
+          background-color: white;
+          color: black;
+          font-size: 12px;
+          border: 8px solid white;
+          border-radius: 16px;
+
+          &::before {
+            content: "";
+            width: 6px;
+            height: 18px;
+            background-color: white;
+            position: absolute;
+            z-index: -1;
+            top: -26px;
+            left: 49%;
+          }
+        }
+        &:nth-child(even) {
+          .points {
+            top: -500%;
+            &::before {
+              height: 100px;
+              top: 54px;
+              background-color: white;
+              z-index: -1;
+            }
+          }
+        }
+      }
     }
     #right {
       flex: 7;
@@ -27,19 +97,62 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
+      &::after {
+        content: "2019";
+        font-weight: bold;
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        top: 80px;
+      }
       .timestamp {
         width: 36px;
         height: 36px;
         background-color: #ffa500;
         outline: 6px solid white;
-        // outline-offset: 8px;
         border-radius: 50%;
-        font-weight: bold;
         color: white;
         display: grid;
         place-items: center;
         position: relative;
-        z-index: 2;
+        z-index: 3;
+        cursor: pointer;
+        transition: outline-offset 0.2s ease-out;
+
+        .points {
+          width: 240px;
+          height: fit-content;
+          position: absolute;
+          // z-index: 3;
+          top: 200%;
+          background-color: white;
+          color: black;
+          font-size: 12px;
+          border: 8px solid white;
+          border-radius: 16px;
+
+          &::before {
+            content: "";
+            width: 6px;
+            height: 18px;
+            background-color: white;
+            position: absolute;
+            z-index: -1;
+            top: -26px;
+            left: 49%;
+          }
+        }
+        &:nth-child(even) {
+          .points {
+            top: -500%;
+            &::before {
+              height: 100px;
+              top: 54px;
+              background-color: white;
+              z-index: -1;
+            }
+          }
+        }
       }
     }
   }
