@@ -57,7 +57,6 @@
           width: 240px;
           height: fit-content;
           position: absolute;
-          // z-index: 3;
           top: 200%;
           background-color: white;
           color: black;
@@ -68,11 +67,11 @@
           &::before {
             content: "";
             width: 6px;
-            height: 18px;
+            height: 22px;
             background-color: white;
             position: absolute;
             z-index: -1;
-            top: -26px;
+            top: -30px;
             left: 49%;
           }
         }
@@ -80,7 +79,7 @@
           .points {
             top: -500%;
             &::before {
-              height: 100px;
+              height: 104px;
               top: 54px;
               background-color: white;
               z-index: -1;
@@ -123,7 +122,6 @@
           width: 240px;
           height: fit-content;
           position: absolute;
-          // z-index: 3;
           top: 200%;
           background-color: white;
           color: black;
@@ -134,11 +132,11 @@
           &::before {
             content: "";
             width: 6px;
-            height: 18px;
+            height: 22px;
             background-color: white;
             position: absolute;
             z-index: -1;
-            top: -26px;
+            top: -30px;
             left: 49%;
           }
         }
@@ -146,7 +144,7 @@
           .points {
             top: -500%;
             &::before {
-              height: 100px;
+              height: 104px;
               top: 54px;
               background-color: white;
               z-index: -1;
