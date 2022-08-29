@@ -4,11 +4,11 @@
   position: relative;
   overflow: hidden;
   #line {
-    height: 4px;
+    height: 6px;
     width: 100%;
     background-color: white;
     position: absolute;
-    top: 50%;
+    top: 49.6%;
     left: 0;
   }
   #container {
@@ -31,9 +31,11 @@
       width: 36px;
       height: 36px;
       background-color: #ffa500;
+      box-shadow: 0 0 32px #ffa500;
       outline: 6px solid white;
       border-radius: 50%;
       color: white;
+      text-shadow: 0 0 4px gray;
       display: grid;
       place-items: center;
       position: relative;
