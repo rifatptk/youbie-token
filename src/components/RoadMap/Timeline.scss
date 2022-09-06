@@ -86,7 +86,6 @@
     .timestamp:first-child {
       .points {
         left: -24px;
-
         &::before {
           margin-left: -80px;
         }
@@ -101,5 +100,11 @@
         }
       }
     }
+  }
+}
+@media (max-width: 660px) {
+  .points {
+    outline: 5px solid gray;
+    box-shadow: 0 0 16px black;
   }
 }
