@@ -85,7 +85,7 @@
   #container {
     .timestamp:first-child {
       .points {
-        left: -24px;
+        left: -23px;
         &::before {
           margin-left: -80px;
         }
@@ -93,8 +93,7 @@
     }
     .timestamp:last-child {
       .points {
-        right: -24px;
-
+        right: -21px;
         &::before {
           margin-left: 80px;
         }
