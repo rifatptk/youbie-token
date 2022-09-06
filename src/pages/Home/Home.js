@@ -20,12 +20,13 @@ const Home = () => {
     <div id="home">
       <Banner />
       <Introduction />
-      <Stramer />
-      {/* <RoadMapTwo /> */}
+      {/* go */}
+      <Premium />
       <Timeline />
       <NFT />
       <Featured />
-      <Premium />
+      {/* stream */}
+      <Stramer />
       <Tokenomic />
       <Tournament />
       <Betting />
