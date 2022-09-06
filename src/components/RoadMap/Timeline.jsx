@@ -5,7 +5,7 @@ const Timeline = () => {
   const [timeline2019, settimeline2019] = useState([
     {
       id: 1,
-      pointsShown: false,
+      pointsShown: true,
       quarter: "Q1",
       points: [
         "UI/UX Live Streaming Platform ",
