@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7064ae38.css",
+    "main.js": "/static/js/main.09ca0a6e.js",
+    "static/js/787.a1ce7037.chunk.js": "/static/js/787.a1ce7037.chunk.js",
+    "static/media/Introduction-graphic-min.gif": "/static/media/Introduction-graphic-min.1d5865c3daebd3ecea99.gif",
+    "static/media/hero-bg.mp4": "/static/media/hero-bg.fcdc8ed92a80c43232c8.mp4",
+    "static/media/betting-bg.png": "/static/media/betting-bg.46e6524eb3e5e480f558.png",
+    "static/media/go-premium-bg.png": "/static/media/go-premium-bg.41ec50c9d917715667cb.png",
+    "static/media/tournament-bg.png": "/static/media/tournament-bg.15661081eaec892f76d0.png",
+    "static/media/hero-bg.png": "/static/media/hero-bg.ca16bfe9b16aa90204dc.png",
+    "static/media/feedback-bg.png": "/static/media/feedback-bg.f83023978df5f7c953a4.png",
+    "static/media/trend-bg.png": "/static/media/trend-bg.7476c162518fce1d929d.png",
+    "static/media/trend-3.png": "/static/media/trend-3.f21709948702d861741e.png",
+    "static/media/neuropol.otf": "/static/media/neuropol.20d65c2970bd3c91ca88.otf",
+    "static/media/trend-4.png": "/static/media/trend-4.fe51ad654d56aa95d8e0.png",
+    "static/media/go-premium-4.png": "/static/media/go-premium-4.0ecc8b1ff7e07eb732f3.png",
+    "static/media/go-premium-2.png": "/static/media/go-premium-2.4f9cfd97d502f793dca7.png",
+    "static/media/trend-1.png": "/static/media/trend-1.c0ee2f03a6297c330484.png",
+    "static/media/binance-coin.svg": "/static/media/binance-coin.3771c174df6ed3ec7c2ce68379e0d8c4.svg",
+    "static/media/hero-char.png": "/static/media/hero-char.a7774032b93c1202a108.png",
+    "static/media/trend-2.png": "/static/media/trend-2.be9e89f5aa0df6f4c142.png",
+    "static/media/go-premium-3.png": "/static/media/go-premium-3.5835f3f353f92f5c9323.png",
+    "static/media/nft-1.png": "/static/media/nft-1.d2b306a8a9529a1a5942.png",
+    "static/media/tournament-img.png": "/static/media/tournament-img.f971ca7aa73a9efdbd4c.png",
+    "static/media/tokenonics-img.png": "/static/media/tokenonics-img.6669392fd9e47adc8c15.png",
+    "static/media/go-premium-1.png": "/static/media/go-premium-1.e5fdae3c8684c1820544.png",
+    "static/media/user-2.png": "/static/media/user-2.6ef12396989062fbabb9.png",
+    "static/media/features-3.png": "/static/media/features-3.91061a85a785191dc27d.png",
+    "static/media/features-1.png": "/static/media/features-1.5e508c9a39290d04c67d.png",
+    "static/media/verified-icon.svg": "/static/media/verified-icon.ebe4a35b005ebb5f7eaa1f0a14fcc0d6.svg",
+    "static/media/copy-icon.svg": "/static/media/copy-icon.07199691d91e6f461e4d6f23821e7ff4.svg",
+    "index.html": "/index.html",
+    "main.7064ae38.css.map": "/static/css/main.7064ae38.css.map",
+    "main.09ca0a6e.js.map": "/static/js/main.09ca0a6e.js.map",
+    "787.a1ce7037.chunk.js.map": "/static/js/787.a1ce7037.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7064ae38.css",
+    "static/js/main.09ca0a6e.js"
+  ]
+}
