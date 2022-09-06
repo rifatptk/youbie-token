@@ -65,6 +65,7 @@
           left: 49%;
         }
       }
+
       &:nth-child(even) {
         .points {
           top: -800%;
@@ -74,6 +75,29 @@
             background-color: white;
             z-index: -1;
           }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  #container {
+    .timestamp:first-child {
+      .points {
+        left: -24px;
+
+        &::before {
+          margin-left: -80px;
+        }
+      }
+    }
+    .timestamp:last-child {
+      .points {
+        right: -24px;
+
+        &::before {
+          margin-left: 80px;
         }
       }
     }
