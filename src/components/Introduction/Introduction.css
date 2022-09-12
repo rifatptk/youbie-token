@@ -8,6 +8,11 @@
 .introduction-section {
   background: #100032;
 }
+@media (min-width: 800px) {
+  .introduction-section {
+    padding-inline: 80px;
+  }
+}
 .heading__2 {
   font-size: calc(1.5rem + 1vmin);
   font-weight: 700;

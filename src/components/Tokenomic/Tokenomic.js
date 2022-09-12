@@ -5,7 +5,7 @@ import tokenomicImg from "../../assets/images/tokenonics-img.png";
 const Tokenomic = () => {
   return (
     <div className="tokenomics-section">
-      <section id="tokenomics" className="tokenomics section px-5">
+      <section id="tokenomics" className="tokenomics section ">
         <div className="container">
           <div className="row gx-4 gy-5 align-items-center">
             <div className="col-lg-4" data-aos="fade-up">

@@ -31,7 +31,7 @@ const NewsFeed = () => {
 
   return (
     <div className="newsfeed-section">
-      <section id="newsfeed" className="newsfeed section px-5">
+      <section id="newsfeed" className="newsfeed section ">
         <div className="container">
           <div className="row gx-4 gy-5 gx-lg-5">
             <div className="col-xl-6">

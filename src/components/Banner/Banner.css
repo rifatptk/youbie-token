@@ -242,9 +242,14 @@
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
+  #hero #heroCont {
+    height: 80vh;
+  }
+  #hero {
+    padding-inline: 80px;
+  }
   #herotext {
     align-self: flex-end;
-    margin-right: 80px;
   }
 }

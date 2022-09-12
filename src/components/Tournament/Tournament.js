@@ -5,7 +5,7 @@ import tournamentImg from "../../assets/images/tournament-img.png";
 const Tournament = () => {
   return (
     <div className="tournament-section">
-      <section id="tournament" className="tournament section px-5">
+      <section id="tournament" className="tournament section ">
         <div className="bg__holder"></div>
         <div className="container">
           <div className="row gx-4 gx-lg-5 gy-5 align-items-center">

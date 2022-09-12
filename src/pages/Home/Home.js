@@ -8,8 +8,6 @@ import NewsFeed from "../../components/NewsFeed/NewsFeed";
 import NFT from "../../components/NFT/NFT";
 import Premium from "../../components/Premium/Premium";
 import Timeline from "../../components/RoadMap/Timeline";
-// import RoadMap from '../../components/RoadMap/RoadMap';
-// import RoadMapTwo from "../../components/RoadMap/RoadmapTwo";
 import Stramer from "../../components/Streamer/Stramer";
 import Testimonial from "../../components/Testimonial/Testimonial";
 import Tokenomic from "../../components/Tokenomic/Tokenomic";
@@ -20,12 +18,10 @@ const Home = () => {
     <div id="home">
       <Banner />
       <Introduction />
-      {/* go */}
       <Premium />
       <Timeline />
       <NFT />
       <Featured />
-      {/* stream */}
       <Stramer />
       <Tokenomic />
       <Tournament />

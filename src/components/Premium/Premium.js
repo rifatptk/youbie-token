@@ -37,7 +37,7 @@ const Premium = () => {
 
   return (
     <div className="premium-section">
-      <section id="go-premium" className="go-premium section px-5">
+      <section id="go-premium" className="go-premium section ">
         <div className="bg__holder"></div>
         <div className="container">
           <div className="row">

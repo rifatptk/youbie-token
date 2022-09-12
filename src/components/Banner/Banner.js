@@ -39,7 +39,7 @@ const Banner = () => {
           </video>
         </div>
 
-        <div className="container" style={{ height: "80vh" }}>
+        <div className="container" id="heroCont">
           <div className="row h-100  align-items-center justify-content-end">
             <div className="col-lg-4 order-1 order-md-0"></div>
 
