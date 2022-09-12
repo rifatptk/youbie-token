@@ -1,0 +1,59 @@
+.why-section {
+  background: #100032;
+  color: #fff;
+}
+@media (min-width: 800px) {
+  .why-section {
+    padding-inline: 80px;
+  }
+}
+
+#why-title {
+  width: fit-content;
+  padding: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background: linear-gradient(to right, #100032, #220268, #100032);
+  margin-bottom: 40px;
+}
+
+table.GeneratedTable {
+  width: 100%;
+  border-collapse: collapse;
+  color: #ffffff;
+}
+
+table.GeneratedTable thead {
+  border-bottom: 1px dotted gray;
+}
+table.GeneratedTable th:first-child {
+  border-right: 1px dotted gray;
+}
+table.GeneratedTable td:first-child {
+  border-right: 1px dotted gray;
+}
+
+table.GeneratedTable th {
+  text-align: center;
+  padding: 25px;
+}
+table.GeneratedTable td {
+  text-align: center;
+  padding: 8px;
+}
+
+table.GeneratedTable thead {
+  background-color: #100032;
+}
+table.GeneratedTable tr:nth-child(even),
+table.GeneratedTable th {
+  background-color: #220268;
+}
+
+.tick {
+  width: 48px;
+}
+.x {
+  color: red;
+  font-weight: 900;
+}
