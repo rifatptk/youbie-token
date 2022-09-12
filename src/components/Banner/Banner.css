@@ -241,3 +241,10 @@
     margin-right: unset;
   }
 }
+
+@media (min-width: 1000px) {
+  #herotext {
+    align-self: flex-end;
+    margin-right: 32px;
+  }
+}
