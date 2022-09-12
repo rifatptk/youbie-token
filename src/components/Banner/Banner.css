@@ -245,6 +245,6 @@
 @media (min-width: 1000px) {
   #herotext {
     align-self: flex-end;
-    margin-right: 32px;
+    margin-right: 80px;
   }
 }
