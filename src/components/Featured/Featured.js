@@ -34,7 +34,7 @@ const Featured = () => {
 
   return (
     <div className="featured-section">
-      <section id="features" className="features section">
+      <section id="features" className="features section px-5">
         <div className="container">
           <p className="section__para one" data-aos="fade-up">
             Youbie

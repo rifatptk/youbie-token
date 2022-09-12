@@ -1,20 +1,19 @@
-
 /*google fonts - montserrate*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-img{
+img {
   max-width: 100%;
   height: auto;
 }
-Link{
+Link {
   text-decoration: none;
 }
-body{
-  font-family: 'Montserrat', sans-serif!important
+body {
+  font-family: "Montserrat", sans-serif !important;
 }
 .section {
   padding: 7% 0;

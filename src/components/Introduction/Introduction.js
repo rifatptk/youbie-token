@@ -4,8 +4,8 @@ import introductionImg from "../../assets/images/Introduction-graphic-min.gif";
 
 const Introduction = () => {
   return (
-    <div className="introduction-section py-5">
-      <div className="container">
+    <div className="introduction-section px-5 py-5">
+      <div className="container px-5">
         <div className="row g-4 align-items-center justify-content-between">
           <div className="col-md-6" data-aos="fade-up">
             <h2 className="heading__2">Introduction</h2>

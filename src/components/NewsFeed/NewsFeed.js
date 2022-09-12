@@ -31,7 +31,7 @@ const NewsFeed = () => {
 
   return (
     <div className="newsfeed-section">
-      <section id="newsfeed" className="newsfeed section">
+      <section id="newsfeed" className="newsfeed section px-5">
         <div className="container">
           <div className="row gx-4 gy-5 gx-lg-5">
             <div className="col-xl-6">
@@ -50,7 +50,10 @@ const NewsFeed = () => {
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat.
               </p>
-              <Splide aria-label="My Favorite Images" options={premiumSliderConfig}>
+              <Splide
+                aria-label="My Favorite Images"
+                options={premiumSliderConfig}
+              >
                 <SplideSlide>
                   <div className="latest__posts" data-aos="fade-up">
                     <section
