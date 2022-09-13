@@ -4,9 +4,9 @@ import tick from "../../assets/images/ok.png";
 const Why = () => {
   return (
     <div className="why-section py-5">
-      <div className="container  ">
+      <div className="container">
         <h1 id="why-title">WHY YOUBIE?</h1>
-        <h5 className="text-end">Competitor comparison</h5>
+        <h5 id="subtitle">Competitor comparison</h5>
 
         <table className="GeneratedTable">
           <thead>

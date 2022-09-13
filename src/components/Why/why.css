@@ -16,6 +16,9 @@
   background: linear-gradient(to right, #100032, #220268, #100032);
   margin-bottom: 40px;
 }
+#subtitle {
+  text-align: right;
+}
 
 table.GeneratedTable {
   width: 100%;
@@ -56,4 +59,65 @@ table.GeneratedTable th {
 .x {
   color: red;
   font-weight: 900;
+}
+
+@media (max-width: 680px) {
+  #why-title {
+    width: 100%;
+    text-align: center;
+  }
+  #subtitle {
+    text-align: center;
+  }
+  table.GeneratedTable {
+    font-size: 12px;
+  }
+  table.GeneratedTable th {
+    text-align: center;
+    padding-inline: 4px;
+  }
+  table.GeneratedTable td {
+    padding-inline: 4px;
+  }
+  .tick {
+    width: 20px;
+  }
+  .x {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 380px) {
+  table.GeneratedTable {
+    font-size: 10px;
+  }
+  table.GeneratedTable th {
+    padding-inline: 2px;
+  }
+  table.GeneratedTable td {
+    padding-inline: 2px;
+  }
+  .tick {
+    width: 16px;
+  }
+  .x {
+    font-size: 14px;
+  }
+}
+@media (max-width: 310px) {
+  table.GeneratedTable {
+    font-size: 8px;
+  }
+  table.GeneratedTable th {
+    padding-inline: 2px;
+  }
+  table.GeneratedTable td {
+    padding-inline: 2px;
+  }
+  .tick {
+    width: 14px;
+  }
+  .x {
+    font-size: 12px;
+  }
 }
