@@ -218,6 +218,9 @@
 }
 @media screen and (max-width: 576px) {
   /* Hero */
+  .hero::before {
+    bottom: 16px;
+  }
   .banner-section .section {
     padding: 20% 0;
   }
