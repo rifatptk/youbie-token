@@ -19,7 +19,7 @@ const Home = () => {
     <div id="home">
       <Banner />
       <Introduction />
-      <Why />
+      {/* <Why /> */}
       <Premium />
       <Timeline />
       <NFT />

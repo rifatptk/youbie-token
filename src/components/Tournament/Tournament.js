@@ -14,21 +14,28 @@ const Tournament = () => {
                 Youbie
               </p>
               <h2 className="heading__1" data-aos="fade-up">
-                Tournament
+                Tournaments
               </h2>
               <p className="section__para two" data-aos="fade-up">
                 Winner takes it all!
               </p>
               <p className="para" data-aos="fade-up">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Youbie Tournaments is a unique platform that allows anyone, no
+                matter their skill to join gaming tournaments. All that is
+                needed is a Youbie account and to fund your wallet with our
+                supported cryptocurrencies! Users can quickly join a wide
+                variety of tournaments that are hosted weekly for cash prizes.
+                We support thousands of games across PC, console, and mobile.
+                Running low on funds? Keep an eye out for free-to-enter
+                tournaments that still reward cash prizes!
               </p>
-              <h3 className="heading__3">Coming soon...</h3>
+              <a
+                href="https://youbie.tv/tournaments"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="btn btn-danger">Enter Tournaments</div>
+              </a>
             </div>
             <div className="col-lg-7">
               <div className="tournament-img" data-aos="fade-up">

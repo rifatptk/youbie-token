@@ -35,14 +35,6 @@
   font-weight: 400;
 }
 
-.tournament .heading__3 {
-  color: #ffffff;
-}
-.heading__3 {
-  font-size: calc(1rem + 1vmin);
-  font-weight: 400;
-  font-family: "Neuropol", sans-serif;
-}
 .tournament .para {
   font-size: calc(0.625rem + 1vmin);
 }
