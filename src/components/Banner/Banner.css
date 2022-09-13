@@ -89,14 +89,14 @@
   content: "";
   width: 280px;
   height: 264px;
-  margin-bottom: -50px;
-  background-image: url("../../assets/images/ch2.png");
+  background-image: url("../../assets/images/ch.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   left: 4%;
   bottom: -1.5rem;
   z-index: 0;
+  margin-bottom: -50px;
 }
 
 .hero .hero-char {
