@@ -12,7 +12,7 @@ import Stramer from "../../components/Streamer/Stramer";
 import Testimonial from "../../components/Testimonial/Testimonial";
 import Tokenomic from "../../components/Tokenomic/Tokenomic";
 import Tournament from "../../components/Tournament/Tournament";
-import Why from "../../components/Why/Why";
+// import Why from "../../components/Why/Why";
 
 const Home = () => {
   return (
