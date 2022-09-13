@@ -48,12 +48,12 @@ const Banner = () => {
                 <img
                   src={youbieLogo}
                   alt="Youbie"
-                  className="hero__logo"
+                  className="hero__logo mb-5"
                   width="441"
                   height="95"
                 />
-                <h1 className="heading__1">Uncensored Live Streaming</h1>
-                <p className="para">
+                <h1 className="heading__1 mb-3">Uncensored Live Streaming</h1>
+                <p className="para ">
                   The first crypto powered, DAO operated, all in one live
                   streaming platform
                 </p>
