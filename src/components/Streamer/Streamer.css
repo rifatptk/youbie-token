@@ -95,6 +95,7 @@
 
 .section .card .card-body {
   padding-top: 0;
+  z-index: 9;
 }
 
 .card .user {

@@ -89,7 +89,8 @@
   content: "";
   width: 280px;
   height: 264px;
-  background-image: url("../../assets/images/hero-char.png");
+  margin-bottom: -50px;
+  background-image: url("../../assets/images/ch2.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

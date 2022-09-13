@@ -54,166 +54,195 @@ const Stramer = () => {
           </p>
           <Splide aria-label="My Favorite Images" options={sliderConfig}>
             <SplideSlide>
-              <div className="card streamer-box" data-aos="fade-up">
-                <Link to="/" className="strech__link"></Link>
-                <div className="card-img-top">
-                  <img
-                    src={trend1}
-                    alt="Streamer"
-                    width="397"
-                    height="264"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="card-body">
-                  <div className="user">
-                    <span className="user__icon">
-                      <img
-                        src={user1}
-                        alt="user"
-                        width="90"
-                        height="135"
-                        className="img-fluid"
-                      />
-                    </span>
-                    <p className="streamer__tag">Gamer/Creator</p>
-                  </div>
-                  <div className="title">
-                    <h5 className="card-title">Janine</h5>
+              <a
+                className="text-decoration-none"
+                href="https://youbie.tv/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="card streamer-box" data-aos="fade-up">
+                  <Link to="/" className="strech__link"></Link>
+                  <div className="card-img-top">
                     <img
-                      src={verifiedIcon}
-                      alt="Verified"
-                      width="16"
-                      height="16"
-                      class="img-fluid"
+                      src={trend1}
+                      alt="Streamer"
+                      width="397"
+                      height="264"
+                      className="img-fluid"
                     />
                   </div>
-                  <p className="card-text">
-                    I stream Fortnite every day. 5pm EST
-                  </p>
+
+                  <div className="card-body">
+                    <div className="user">
+                      <span className="user__icon">
+                        <img
+                          src={user1}
+                          alt="user"
+                          width="90"
+                          height="135"
+                          className="img-fluid"
+                        />
+                      </span>
+                      <p className="streamer__tag">Gamer/Creator</p>
+                    </div>
+                    <div className="title">
+                      <h5 className="card-title">Janine</h5>
+                      <img
+                        src={verifiedIcon}
+                        alt="Verified"
+                        width="16"
+                        height="16"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <p className="card-text">
+                      I stream Fortnite every day. 5pm EST
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </SplideSlide>
             <SplideSlide>
-              <div class="card streamer-box" data-aos="fade-up">
-                <Link to="/" className="strech__link"></Link>
-                <div className="card-img-top">
-                  <img
-                    src={trend2}
-                    alt="Streamer"
-                    width="397"
-                    height="264"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="card-body">
-                  <div className="user">
-                    <span className="user__icon">
-                      <img
-                        src={user2}
-                        alt="user"
-                        width="90"
-                        height="135"
-                        className="img-fluid"
-                      />
-                    </span>
-                    <p className="streamer__tag">Gamer/Creator</p>
-                  </div>
-                  <div className="title">
-                    <h5 className="card-title">Michael</h5>
+              <a
+                className="text-decoration-none"
+                href="https://youbie.tv/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div class="card streamer-box" data-aos="fade-up">
+                  <Link to="/" className="strech__link"></Link>
+                  <div className="card-img-top">
                     <img
-                      src={verifiedIcon}
-                      alt="Verified"
-                      width="16"
-                      height="16"
-                      class="img-fluid"
+                      src={trend2}
+                      alt="Streamer"
+                      width="397"
+                      height="264"
+                      className="img-fluid"
                     />
                   </div>
-                  <p className="card-text">
-                    Hang out with me every weekdays, 4pm EST
-                  </p>
+                  <div className="card-body">
+                    <div className="user">
+                      <span className="user__icon">
+                        <img
+                          src={user2}
+                          alt="user"
+                          width="90"
+                          height="135"
+                          className="img-fluid"
+                        />
+                      </span>
+                      <p className="streamer__tag">Gamer/Creator</p>
+                    </div>
+                    <div className="title">
+                      <h5 className="card-title">Michael</h5>
+                      <img
+                        src={verifiedIcon}
+                        alt="Verified"
+                        width="16"
+                        height="16"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <p className="card-text">
+                      Hang out with me every weekdays, 4pm EST
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </SplideSlide>
             <SplideSlide>
-              <div class="card streamer-box" data-aos="fade-up">
-                <Link to="/" className="strech__link"></Link>
-                <div className="card-img-top">
-                  <img
-                    src={trend3}
-                    alt="Streamer"
-                    width="397"
-                    height="264"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="card-body">
-                  <div className="user">
-                    <span className="user__icon">
-                      <img
-                        src={user3}
-                        alt="user"
-                        width="90"
-                        height="135"
-                        className="img-fluid"
-                      />
-                    </span>
-                    <p className="streamer__tag">Content Creator</p>
-                  </div>
-                  <div className="title">
-                    <h5 className="card-title">Dr. Crypto Vendor</h5>
+              <a
+                className="text-decoration-none"
+                href="https://youbie.tv/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div class="card streamer-box" data-aos="fade-up">
+                  <Link to="/" className="strech__link"></Link>
+                  <div className="card-img-top">
                     <img
-                      src={verifiedIcon}
-                      alt="Verified"
-                      width="16"
-                      height="16"
-                      class="img-fluid"
+                      src={trend3}
+                      alt="Streamer"
+                      width="397"
+                      height="264"
+                      className="img-fluid"
                     />
                   </div>
-                  <p className="card-text">Come and say Hi!</p>
+                  <div className="card-body">
+                    <div className="user">
+                      <span className="user__icon">
+                        <img
+                          src={user3}
+                          alt="user"
+                          width="90"
+                          height="135"
+                          className="img-fluid"
+                        />
+                      </span>
+                      <p className="streamer__tag">Content Creator</p>
+                    </div>
+                    <div className="title">
+                      <h5 className="card-title">Dr. Crypto Vendor</h5>
+                      <img
+                        src={verifiedIcon}
+                        alt="Verified"
+                        width="16"
+                        height="16"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <p className="card-text">Come and say Hi!</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </SplideSlide>
             <SplideSlide>
-              <div class="card streamer-box" data-aos="fade-up">
-                <Link to="/" className="strech__link"></Link>
-                <div className="card-img-top">
-                  <img
-                    src={trend4}
-                    alt="Streamer"
-                    width="397"
-                    height="264"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="card-body">
-                  <div className="user">
-                    <span className="user__icon">
-                      <img
-                        src={user4}
-                        alt="user"
-                        width="90"
-                        height="135"
-                        className="img-fluid"
-                      />
-                    </span>
-                    <p className="streamer__tag">Gamer/Creator</p>
-                  </div>
-                  <div className="title">
-                    <h5 className="card-title">Kimberly</h5>
+              <a
+                className="text-decoration-none"
+                href="https://youbie.tv/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div class="card streamer-box" data-aos="fade-up">
+                  <Link to="/" className="strech__link"></Link>
+                  <div className="card-img-top">
                     <img
-                      src={verifiedIcon}
-                      alt="Verified"
-                      width="16"
-                      height="16"
-                      class="img-fluid"
+                      src={trend4}
+                      alt="Streamer"
+                      width="397"
+                      height="264"
+                      className="img-fluid"
                     />
                   </div>
-                  <p className="card-text">
-                    Valorant Stram every tuesday, 2pm EST
-                  </p>
+                  <div className="card-body">
+                    <div className="user">
+                      <span className="user__icon">
+                        <img
+                          src={user4}
+                          alt="user"
+                          width="90"
+                          height="135"
+                          className="img-fluid"
+                        />
+                      </span>
+                      <p className="streamer__tag">Gamer/Creator</p>
+                    </div>
+                    <div className="title">
+                      <h5 className="card-title">Kimberly</h5>
+                      <img
+                        src={verifiedIcon}
+                        alt="Verified"
+                        width="16"
+                        height="16"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <p className="card-text">
+                      Valorant Stram every tuesday, 2pm EST
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </SplideSlide>
           </Splide>
           <div className="load-more">
