@@ -1,6 +1,6 @@
 import React from "react";
 import "./Introduction.css";
-import introductionImg from "../../assets/images/Introduction-graphic-min.gif";
+import introductionImg from "../../assets/images/introduction-img.png";
 
 const Introduction = () => {
   return (

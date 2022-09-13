@@ -32,10 +32,13 @@
   position: relative;
   z-index: inherit;
 }
+.intro-img:hover {
+  animation: bouncing 2s infinite ease-in-out;
+}
 
 @keyframes bouncing {
   50% {
-    transform: translateY(16px);
+    transform: translateY(-16px);
   }
 }
 
