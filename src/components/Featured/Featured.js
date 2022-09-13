@@ -65,9 +65,9 @@ const Featured = () => {
                         Our creator fees are only a max of 8%! That’s 22% lower
                         than our competitors!
                       </p>
-                      <Link to="/" className="feature-box__link">
+                      {/* <Link to="/" className="feature-box__link">
                         Read More
-                      </Link>
+                      </Link> */}
                     </div>
                   </li>
                 </ul>
@@ -93,9 +93,9 @@ const Featured = () => {
                         physical marketplace, gaming tournaments, and premium
                         subscriptions.
                       </p>
-                      <Link to="/" className="feature-box__link">
+                      {/* <Link to="/" className="feature-box__link">
                         Read More
-                      </Link>
+                      </Link> */}
                     </div>
                   </li>
                 </ul>
@@ -122,9 +122,9 @@ const Featured = () => {
                         BNB deposits! You can swap any of these assets directly
                         into $YouB.
                       </p>
-                      <Link to="/" className="feature-box__link">
+                      {/* <Link to="/" className="feature-box__link">
                         Read More
-                      </Link>
+                      </Link> */}
                     </div>
                   </li>
                 </ul>

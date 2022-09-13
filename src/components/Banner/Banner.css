@@ -89,14 +89,12 @@
   content: "";
   width: 280px;
   height: 264px;
-  /* border: 1px solid white; */
-  /* background-image: url("../../assets/images/hero-char.png"); */
-  background-image: url("../../assets/images/man-removebg.png");
+  background-image: url("../../assets/images/hero-char.png");
   background-repeat: no-repeat;
-  background-size: 120%;
+  background-size: contain;
   background-position: center;
   left: 4%;
-  bottom: -1%;
+  bottom: -1.5rem;
   z-index: 0;
 }
 

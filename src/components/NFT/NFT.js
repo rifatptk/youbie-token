@@ -238,9 +238,14 @@ const NFT = () => {
           </Splide>
 
           <div className="load-more">
-            <Link to="/" className="you-btn">
+            <a
+              href="https://youbie.tv/nft-marketplace/explore"
+              className="you-btn"
+              target="_blank"
+              rel="noreferrer"
+            >
               Browse
-            </Link>
+            </a>
           </div>
         </div>
       </section>

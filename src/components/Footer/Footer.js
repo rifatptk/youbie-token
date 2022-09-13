@@ -1,12 +1,11 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Footer.css';
-
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Footer.css";
 
 const Footer = () => {
-    return (
-        <div className='footer-section'>
-        <footer id="footer">
+  return (
+    <div className="footer-section">
+      <footer id="footer">
         <section id="footer-widgets" className="section footer-widgets">
           <div className="container">
             <div className="row gx-4 gy-5">
@@ -14,11 +13,11 @@ const Footer = () => {
                 <div className="row gx-4 gy-5">
                   <div className="col-sm-6" data-aos="fade-up">
                     <h2 className="heading__1">Youbie</h2>
-                    <p className="para">
+                    {/* <p className="para">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua.
-                    </p>
+                    </p> */}
                   </div>
                   <div className="col-sm-6 d-none d-md-block">
                     <div className="widget" data-aos="fade-up">
@@ -73,14 +72,24 @@ const Footer = () => {
                       <h4 className="widget__title">Links</h4>
                       <ul className="footer-nav">
                         <li className="footer-nav__item">
-                          <Link to="/" className="footer-nav__item-link">
-                            Website.com
-                          </Link>
+                          <a
+                            href="https://stake.youbie.tv"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="footer-nav__item-link"
+                          >
+                            Stake
+                          </a>
                         </li>
                         <li className="footer-nav__item">
-                          <Link to="/" className="footer-nav__item-link">
-                            Site.com
-                          </Link>
+                          <a
+                            href="https://youbie.tv/"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="footer-nav__item-link"
+                          >
+                            Platform
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -90,24 +99,14 @@ const Footer = () => {
                       <h4 className="widget__title">Socials</h4>
                       <ul className="footer-nav">
                         <li className="footer-nav__item">
-                          <Link to="/" className="footer-nav__item-link">
-                            Twitter
-                          </Link>
-                        </li>
-                        <li className="footer-nav__item">
-                          <Link to="/" className="footer-nav__item-link">
-                            Facebook
-                          </Link>
-                        </li>
-                        <li className="footer-nav__item">
-                          <Link to="/" className="footer-nav__item-link">
-                            Instagram
-                          </Link>
-                        </li>
-                        <li className="footer-nav__item">
-                          <Link to="/" className="footer-nav__item-link">
-                            Youtube
-                          </Link>
+                          <a
+                            href="https://t.me/youbietoken"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="footer-nav__item-link"
+                          >
+                            Telegram
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -117,12 +116,14 @@ const Footer = () => {
                       <h4 className="widget__title">Company</h4>
                       <ul className="footer-nav">
                         <li className="footer-nav__item">
-                          <Link to="/" className="footer-nav__item-link"> About </Link>
-                        </li>
-                        <li className="footer-nav__item">
                           <Link to="/" className="footer-nav__item-link">
                             Contact
                           </Link>
+                        </li>
+                        <li className="footer-nav__item">
+                          <small className="text-white">
+                            contact@youbietoken.tv
+                          </small>
                         </li>
                       </ul>
                     </div>
@@ -138,8 +139,8 @@ const Footer = () => {
           </div>
         </section>
       </footer>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Footer;

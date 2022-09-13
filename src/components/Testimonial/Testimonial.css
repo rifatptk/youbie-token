@@ -108,6 +108,13 @@
   margin-bottom: 0;
 }
 
+.brand {
+  height: 60px;
+  /* margin: 16px; */
+  padding: 8px 32px;
+  /* border: 1px solid white; */
+}
+
 /* Medium Devices */
 @media screen and (min-width: 768px) {
   /* Testimonial */

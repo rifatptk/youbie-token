@@ -64,7 +64,7 @@ const Banner = () => {
                         ref={inputValRef}
                         type="text"
                         className="form-control"
-                        defaultValue="To Be Announced"
+                        defaultValue="0x5c4ADaF43D676Fb1BacEFEca8008799B03746D22"
                         aria-describedby="copy-btn"
                       />
                       <span

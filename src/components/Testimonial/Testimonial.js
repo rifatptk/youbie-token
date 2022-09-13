@@ -1,29 +1,13 @@
 import React from "react";
 import "./Testimonial.css";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import user3 from "../../assets/images/user-3.png";
-import user4 from "../../assets/images/user-4.png";
-import user5 from "../../assets/images/user-5.png";
+import coin from "../../assets/images/CoinMarketCap.png";
+import gecko from "../../assets/images/CoinGhecko.png";
+import lbank from "../../assets/images/LBank.png";
+import dex from "../../assets/images/Dextools.png";
+import latoken from "../../assets/images/LaToken.png";
 
 const Testimonial = () => {
-  const testimonialSliderConfig = {
-    type: "loop",
-    perPage: 1,
-    perMove: 1,
-    gap: 30,
-    arrows: false,
-    mediaQuery: "min",
-    breakpoints: {
-      640: {
-        perPage: 2,
-      },
-      992: {
-        perPage: 3,
-      },
-    },
-  };
-
   return (
     <div className="testimonial-section">
       <section id="testimonial" className="testimonial section">
@@ -32,6 +16,15 @@ const Testimonial = () => {
           <h2 className="heading__1" data-aos="fade-up">
             Supported By
           </h2>
+          <div className="text-center my-5">
+            <img className="brand border-end" src={coin} alt="" />
+            <img className="brand border-end" src={gecko} alt="" />
+            <img className="brand" src={lbank} alt="" />
+          </div>
+          <div className="text-center">
+            <img className="brand border-end" src={dex} alt="" />
+            <img className="brand" src={latoken} alt="" />
+          </div>
         </div>
       </section>
     </div>
