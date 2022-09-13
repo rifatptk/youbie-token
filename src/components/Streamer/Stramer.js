@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Streamer.css";
-import trend1 from "../../assets/images/trend-1.png";
-import trend2 from "../../assets/images/trend-2.png";
-import trend3 from "../../assets/images/trend-3.png";
-import trend4 from "../../assets/images/trend-4.png";
-import user1 from "../../assets/images/user-1.png";
-import user2 from "../../assets/images/user-2.png";
-import user3 from "../../assets/images/user-3.png";
-import user4 from "../../assets/images/user-4.png";
+import trend1 from "../../assets/images/str1.jpg";
+import trend2 from "../../assets/images/str2.jpg";
+import trend3 from "../../assets/images/str3.jpg";
+import trend4 from "../../assets/images/str4.jpg";
+import user1 from "../../assets/images/sts1.jpg";
+import user2 from "../../assets/images/sts2.jpg";
+import user3 from "../../assets/images/sts3.jpg";
+import user4 from "../../assets/images/sts4.jpg";
 import verifiedIcon from "../../assets/images/verified-icon.svg";
 
 import { Splide, SplideSlide } from "@splidejs/react-splide";
@@ -89,7 +89,7 @@ const Stramer = () => {
                     />
                   </div>
                   <p className="card-text">
-                    50k followers • 15k Premium Subscribers
+                    I stream Fortnite every day. 5pm EST
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ const Stramer = () => {
                     />
                   </div>
                   <p className="card-text">
-                    50k followers • 15k Premium Subscribers
+                    Hang out with me every weekdays, 4pm EST
                   </p>
                 </div>
               </div>
@@ -158,7 +158,7 @@ const Stramer = () => {
                         className="img-fluid"
                       />
                     </span>
-                    <p className="streamer__tag">Gamer/Creator</p>
+                    <p className="streamer__tag">Content Creator</p>
                   </div>
                   <div className="title">
                     <h5 className="card-title">Dr. Crypto Vendor</h5>
@@ -170,9 +170,7 @@ const Stramer = () => {
                       class="img-fluid"
                     />
                   </div>
-                  <p className="card-text">
-                    50k followers • 15k Premium Subscribers
-                  </p>
+                  <p className="card-text">Come and say Hi!</p>
                 </div>
               </div>
             </SplideSlide>
@@ -212,7 +210,7 @@ const Stramer = () => {
                     />
                   </div>
                   <p className="card-text">
-                    50k followers • 15k Premium Subscribers
+                    Valorant Stram every tuesday, 2pm EST
                   </p>
                 </div>
               </div>
