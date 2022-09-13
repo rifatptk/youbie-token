@@ -33,7 +33,7 @@ const Introduction = () => {
               favourite creators private profile.
             </p>
           </div>
-          <div className="col-md-5" data-aos="fade-up">
+          <div className="col-md-6" data-aos="fade-up">
             <div className="intro-img">
               <img
                 src={introductionImg}
