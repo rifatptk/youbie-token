@@ -108,6 +108,46 @@ const Footer = () => {
                             Telegram
                           </a>
                         </li>
+                        <li className="footer-nav__item">
+                          <a
+                            href="https://medium.com/@youbietoken"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="footer-nav__item-link"
+                          >
+                            Medium
+                          </a>
+                        </li>
+                        <li className="footer-nav__item">
+                          <a
+                            href="https://instagram.com/youbietoken/"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="footer-nav__item-link"
+                          >
+                            Instagram
+                          </a>
+                        </li>
+                        <li className="footer-nav__item">
+                          <a
+                            href="https://twitter.com/youbietoken"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="footer-nav__item-link"
+                          >
+                            Twitter
+                          </a>
+                        </li>
+                        <li className="footer-nav__item">
+                          <a
+                            href="https://www.reddit.com/u/YoubieToken"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="footer-nav__item-link"
+                          >
+                            Reddit
+                          </a>
+                        </li>
                       </ul>
                     </div>
                   </div>
