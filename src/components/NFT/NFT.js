@@ -3,12 +3,15 @@ import "./NFT.css";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import { Link } from "react-router-dom";
-import nft1 from "../../assets/images/nft-1.png";
-import binanceCoin from "../../assets/images/binance-coin.svg";
-import user1 from "../../assets/images/user-1.png";
-import user2 from "../../assets/images/user-2.png";
-import user3 from "../../assets/images/user-3.png";
-import user4 from "../../assets/images/user-4.png";
+import nft1 from "../../assets/images/nft1.jpg";
+import nft2 from "../../assets/images/nft2.jpg";
+import nft3 from "../../assets/images/nft3.jpg";
+import nft4 from "../../assets/images/nft4.jpg";
+import verifiedIcon from "../../assets/images/verified-icon.svg";
+import user1 from "../../assets/images/nfts1.jpg";
+import user2 from "../../assets/images/nfts2.jpg";
+import user3 from "../../assets/images/nfts3.jpg";
+import user4 from "../../assets/images/nfts4.jpg";
 
 const NFT = () => {
   const sliderConfig = {
@@ -77,25 +80,20 @@ const NFT = () => {
                               className="img-fluid"
                             />
                           </span>
-                          <p className="streamer__tag">Nft Collection</p>
-                        </div>
-                        <div className="block">
-                          <p className="text">Gains:</p>
-                          <div className="percentage">+99.99%</div>
-                        </div>
-                        <div className="block">
-                          <p className="text">Floor Price:</p>
-                          <div className="count">
-                            <span className="icon">
-                              <img
-                                src={binanceCoin}
-                                alt="binance-coin"
-                                className="img-fluid"
-                                width="20"
-                                height="20"
-                              />
-                            </span>
-                            0.5
+                          <div>
+                            <div>
+                              <small className="text-white">
+                                Mystic Masks IV <br />
+                                UnZiped{" "}
+                                <img
+                                  src={verifiedIcon}
+                                  alt="Verified"
+                                  width="16"
+                                  height="16"
+                                  className="img-fluid mb-1"
+                                />
+                              </small>{" "}
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -112,7 +110,7 @@ const NFT = () => {
                       <Link to="/" className="strech__link"></Link>
                       <div className="card-img-top">
                         <img
-                          src={nft1}
+                          src={nft2}
                           alt="Streamer"
                           width="397"
                           height="264"
@@ -130,26 +128,18 @@ const NFT = () => {
                               className="img-fluid"
                             />
                           </span>
-                          <p className="streamer__tag">Nft Collection</p>
-                        </div>
-                        <div className="block">
-                          <p className="text">Gains:</p>
-                          <div className="percentage">+99.99%</div>
-                        </div>
-                        <div className="block">
-                          <p className="text">Floor Price:</p>
-                          <div className="count">
-                            <span className="icon">
-                              <img
-                                src={binanceCoin}
-                                alt="binance-coin"
-                                className="img-fluid"
-                                width="20"
-                                height="20"
-                              />
-                            </span>
-                            0.5
-                          </div>
+
+                          <small className="text-white">
+                            Ez Headshots <br />
+                            COD_Degen{" "}
+                            <img
+                              src={verifiedIcon}
+                              alt="Verified"
+                              width="16"
+                              height="16"
+                              className="img-fluid mb-1"
+                            />
+                          </small>
                         </div>
                       </div>
                     </div>
@@ -165,7 +155,7 @@ const NFT = () => {
                       <Link to="/" className="strech__link"></Link>
                       <div className="card-img-top">
                         <img
-                          src={nft1}
+                          src={nft3}
                           alt="Streamer"
                           width="397"
                           height="264"
@@ -183,26 +173,17 @@ const NFT = () => {
                               className="img-fluid"
                             />
                           </span>
-                          <p className="streamer__tag">Nft Collection</p>
-                        </div>
-                        <div className="block">
-                          <p className="text">Gains:</p>
-                          <div className="percentage">+99.99%</div>
-                        </div>
-                        <div className="block">
-                          <p className="text">Floor Price:</p>
-                          <div className="count">
-                            <span className="icon">
-                              <img
-                                src={binanceCoin}
-                                alt="binance-coin"
-                                className="img-fluid"
-                                width="20"
-                                height="20"
-                              />
-                            </span>
-                            0.5
-                          </div>
+                          <small className="text-white">
+                            WorldWar10 <br />
+                            DavidM{" "}
+                            <img
+                              src={verifiedIcon}
+                              alt="Verified"
+                              width="16"
+                              height="16"
+                              className="img-fluid mb-1"
+                            />
+                          </small>
                         </div>
                       </div>
                     </div>
@@ -218,7 +199,7 @@ const NFT = () => {
                       <Link to="/" className="strech__link"></Link>
                       <div className="card-img-top">
                         <img
-                          src={nft1}
+                          src={nft4}
                           alt="Streamer"
                           width="397"
                           height="264"
@@ -236,26 +217,17 @@ const NFT = () => {
                               className="img-fluid"
                             />
                           </span>
-                          <p className="streamer__tag">Nft Collection</p>
-                        </div>
-                        <div className="block">
-                          <p className="text">Gains:</p>
-                          <div className="percentage">+99.99%</div>
-                        </div>
-                        <div className="block">
-                          <p className="text">Floor Price:</p>
-                          <div className="count">
-                            <span className="icon">
-                              <img
-                                src={binanceCoin}
-                                alt="binance-coin"
-                                className="img-fluid"
-                                width="20"
-                                height="20"
-                              />
-                            </span>
-                            0.5
-                          </div>
+                          <p className="text-white">
+                            Cyber City <br />
+                            Jacob{" "}
+                            <img
+                              src={verifiedIcon}
+                              alt="Verified"
+                              width="16"
+                              height="16"
+                              className="img-fluid mb-1"
+                            />
+                          </p>
                         </div>
                       </div>
                     </div>
