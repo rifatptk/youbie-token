@@ -17,12 +17,12 @@ const Testimonial = () => {
             Supported By
           </h2>
           <div className="text-center my-5">
-            <img className="brand border-end" src={coin} alt="" />
-            <img className="brand border-end" src={gecko} alt="" />
+            <img className="brand" src={coin} alt="" />
+            <img className="brand" src={gecko} alt="" />
             <img className="brand" src={lbank} alt="" />
           </div>
           <div className="text-center">
-            <img className="brand border-end" src={dex} alt="" />
+            <img className="brand" src={dex} alt="" />
             <img className="brand" src={latoken} alt="" />
           </div>
         </div>
