@@ -11,6 +11,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
