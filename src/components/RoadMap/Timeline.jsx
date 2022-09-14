@@ -11,8 +11,6 @@ const Timeline = () => {
         "UI/UX Live Streaming Platform ",
         "Begin Development of Live Streaming Platform ",
         "Build Brand Identity ",
-        "Expand local operation to 10 tier-one cities in Indonesia",
-        "Onboard 50.000 users on Tokoin ecosystem",
       ],
     },
     {
