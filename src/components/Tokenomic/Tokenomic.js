@@ -1,6 +1,6 @@
 import React from "react";
 import "./Tokenomic.css";
-import tokenomicImg from "../../assets/images/tokenonics-img.png";
+import tokenomic from "../../assets/images/tokenomics.png";
 
 const Tokenomic = () => {
   return (
@@ -8,71 +8,25 @@ const Tokenomic = () => {
       <section id="tokenomics" className="tokenomics section ">
         <div className="container">
           <div className="row gx-4 gy-5 align-items-center">
-            <div className="col-lg-4" data-aos="fade-up">
-              <div className="tokenomics__img">
-                <img
-                  src={tokenomicImg}
-                  alt="Token Stats"
-                  className="img-fluid"
-                  width="320"
-                  height="329"
-                />
-              </div>
-            </div>
-            <div className="col-lg-8">
+            <div className="col-md-5">
               <p className="section__para one" data-aos="fade-up">
                 Youbie
               </p>
               <h2 className="heading__1" data-aos="fade-up">
-                Tokenomics
+                Tockenomics
               </h2>
-              <ul className="stat-list">
-                <li className="stat-list__item" data-aos="fade-up">
-                  <div className="stat-item__percentage">75%</div>
-                  <div className="stat-item__title">Lorem</div>
-                  <p className="stat-item__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </li>
-                <li className="stat-list__item" data-aos="fade-up">
-                  <div className="stat-item__percentage">50%</div>
-                  <div className="stat-item__title">Lorem</div>
-                  <p className="stat-item__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </li>
-                <li className="stat-list__item" data-aos="fade-up">
-                  <div className="stat-item__percentage">30%</div>
-                  <div className="stat-item__title">Lorem</div>
-                  <p className="stat-item__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </li>
-                <li className="stat-list__item" data-aos="fade-up">
-                  <div className="stat-item__percentage">20%</div>
-                  <div className="stat-item__title">Lorem</div>
-                  <p className="stat-item__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </li>
-                <li className="stat-list__item" data-aos="fade-up">
-                  <div className="stat-item__percentage">10%</div>
-                  <div className="stat-item__title">Lorem</div>
-                  <p className="stat-item__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </li>
-              </ul>
+              <p className="text-white">
+                The total supply of Youbie is 1,000,000,000. We have burned 43%
+                of tokens at launch. Additionally, every transaction has a 2%
+                Buyback + Burn tax resulting in a forever lowering supply. The
+                token contract also has a 2% marketing and 2% development tax
+                which allows us to continue to develop and market the project.
+                In the future, we plan on eliminating tax and having the
+                Youbie.tv platform be the main revenue stream for token holders.{" "}
+              </p>
+            </div>
+            <div className="col-md-7">
+              <img src={tokenomic} alt="" />
             </div>
           </div>
         </div>
