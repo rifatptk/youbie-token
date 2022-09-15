@@ -6,7 +6,7 @@ const Tournament = () => {
   return (
     <div className="tournament-section">
       <section id="tournament" className="tournament section ">
-        <div className="bg__holder"></div>
+        <div id="bg_fx" className="bg__holder"></div>
         <div className="container">
           <div className="row gx-4 gx-lg-5 gy-5 align-items-center">
             <div className="col-lg-5">

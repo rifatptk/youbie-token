@@ -42,7 +42,7 @@ const NFT = () => {
   return (
     <div className="nft-section">
       <section id="nfts" className="nfts section ">
-        <div className="bg__holder"></div>
+        <div id="bg_fx" className="bg__holder"></div>
         <div className="container">
           <p className="section__para one" data-aos="fade-up">
             #NFT

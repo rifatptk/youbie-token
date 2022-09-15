@@ -44,7 +44,7 @@ const Stramer = () => {
   return (
     <div className="streamers-section">
       <section id="streamers" className="streamers section ">
-        <div className="bg__holder"></div>
+        <div id="bg_fx" className="bg__holder"></div>
 
         <div className="container">
           <p className="section__para one">#GOSTREAM</p>
@@ -92,7 +92,7 @@ const Stramer = () => {
                         alt="Verified"
                         width="16"
                         height="16"
-                        class="img-fluid"
+                        className="img-fluid"
                       />
                     </div>
                     <p className="card-text">
@@ -109,7 +109,7 @@ const Stramer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <div class="card streamer-box" data-aos="fade-up">
+                <div className="card streamer-box" data-aos="fade-up">
                   <Link to="/" className="strech__link"></Link>
                   <div className="card-img-top">
                     <img
@@ -140,7 +140,7 @@ const Stramer = () => {
                         alt="Verified"
                         width="16"
                         height="16"
-                        class="img-fluid"
+                        className="img-fluid"
                       />
                     </div>
                     <p className="card-text">
@@ -157,7 +157,7 @@ const Stramer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <div class="card streamer-box" data-aos="fade-up">
+                <div className="card streamer-box" data-aos="fade-up">
                   <Link to="/" className="strech__link"></Link>
                   <div className="card-img-top">
                     <img
@@ -188,7 +188,7 @@ const Stramer = () => {
                         alt="Verified"
                         width="16"
                         height="16"
-                        class="img-fluid"
+                        className="img-fluid"
                       />
                     </div>
                     <p className="card-text">Come and say Hi!</p>
@@ -203,7 +203,7 @@ const Stramer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <div class="card streamer-box" data-aos="fade-up">
+                <div className="card streamer-box" data-aos="fade-up">
                   <Link to="/" className="strech__link"></Link>
                   <div className="card-img-top">
                     <img
@@ -234,7 +234,7 @@ const Stramer = () => {
                         alt="Verified"
                         width="16"
                         height="16"
-                        class="img-fluid"
+                        className="img-fluid"
                       />
                     </div>
                     <p className="card-text">

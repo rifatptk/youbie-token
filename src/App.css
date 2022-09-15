@@ -20,3 +20,9 @@ body {
   position: relative;
   z-index: 0;
 }
+
+@media (min-width: 768px) {
+  #bg_fx {
+    background-attachment: fixed;
+  }
+}

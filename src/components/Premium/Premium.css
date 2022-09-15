@@ -10,7 +10,6 @@
   background: url("../../assets/images/go-premium-bg.png") no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   overflow: hidden;
   display: -webkit-box;
@@ -24,6 +23,7 @@
   justify-content: center;
   text-align: center;
 }
+
 .container {
   max-width: 96%;
   position: relative;
