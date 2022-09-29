@@ -215,7 +215,7 @@
   color: white;
 }
 #modal .modalContent {
-  width: 50%;
+  width: 80%;
   background-color: #100032;
   border-radius: 16px;
   text-align: center;
@@ -227,14 +227,19 @@
 #modal .modalContent .closeModal {
   width: 24px;
   height: 24px;
-  background-color: #01eaff;
-  color: darkblue;
+  background-color: #0cc6ef;
+  color: #100032;
   font-weight: bold;
   cursor: pointer;
   border-radius: 50%;
   position: absolute;
   top: 8px;
   right: 8px;
+  transition: all 0.3s ease-out;
+}
+#modal .modalContent .closeModal:hover {
+  background-color: hotpink;
+  scale: 1.1;
 }
 /*Responsive css*/
 /* Small Devices */
@@ -248,6 +253,9 @@
   .hero__content .button-group .you-btn {
     min-width: 146px;
     max-width: 185px;
+  }
+  #modal .modalContent {
+    width: 50%;
   }
 }
 @media screen and (max-width: 576px) {
