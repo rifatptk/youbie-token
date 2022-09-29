@@ -1,12 +1,12 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./Banner.css";
-import { Link } from "react-router-dom";
 import video from "../../assets/videos/hero-bg.mp4";
 import youbieLogo from "../../assets/images/youbie.png";
 import heroBg from "../../assets/images/hero-bg.png";
 import copyIcon from "../../assets/images/copy-icon.svg";
 import doubleCheck from "../../assets/images/double-check.png";
 const Banner = () => {
+  const [showModal, setShowModal] = useState(false);
   const copyBtnRef = useRef();
   const inputValRef = useRef();
 
@@ -84,21 +84,33 @@ const Banner = () => {
                   </form>
                 </div>
                 <div className="button-group">
-                  <Link to="/" className="you-btn">
-                    Buy
-                  </Link>
-                  <Link to="/" className="you-btn">
+                  <a href="https://pancakeswap.finance/swap?outputCurrency=0x5c4ADaF43D676Fb1BacEFEca8008799B03746D22">
+                    <div className="you-btn">Buy</div>
+                  </a>
+
+                  <div className="you-btn" onClick={() => setShowModal(true)}>
                     Stake
-                  </Link>
-                  <Link to="/" className="you-btn">
-                    Watch
-                  </Link>
+                  </div>
+
+                  <a href=" https://youbie.tv/">
+                    <div className="you-btn">Watch</div>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      {showModal && (
+        <div id="modal">
+          <div className="modalContent">
+            <div className="closeModal" onClick={() => setShowModal(false)}>
+              x
+            </div>
+            <div className="modalMessage">Staking is coming soon!</div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
