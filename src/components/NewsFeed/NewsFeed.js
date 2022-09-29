@@ -45,10 +45,10 @@ const NewsFeed = () => {
                 News & Update
               </p>
               <p className="para" data-aos="fade-up">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Below are project related articles for you to keep up to date.
+                Additionally, we will update this section with articles related
+                to streaming, gaming, and other topics that relate with our
+                platform.
               </p>
               <Splide
                 aria-label="My Favorite Images"
@@ -82,7 +82,7 @@ const NewsFeed = () => {
                                       style={{ color: "#0c8dac" }}
                                     />
                                     <Link to="/" className="username">
-                                      By Lorem
+                                      By Max Miceli
                                     </Link>
                                   </div>
                                   |
@@ -92,21 +92,24 @@ const NewsFeed = () => {
                                       style={{ color: "#0c8dac" }}
                                     />{" "}
                                     <Link to="/" className="text">
-                                      April 21, 2022
+                                      September 6th, 2022
                                     </Link>
                                   </div>
                                 </div>
                                 <p className="card-box__text">
-                                  Lorem ipsum dolor sit, amet consectetur
-                                  adipisicing elit. Cum, quisquam!
+                                  The streaming wars are in full effect. Both
+                                  Twitch and YouTube
                                 </p>
-                                <Link to="/" className="readmore">
+                                <a
+                                  href="https://dotesports.com/streaming/news/all-high-profile-streamers-to-leave-twitch-for-youtube-gaming"
+                                  className="readmore"
+                                >
                                   <span className="text">Read More</span>
                                   <FontAwesomeIcon
                                     icon={faArrowRight}
-                                    style={{ color: "#cb0e52" }}
+                                    style={{ color: "#cb0e52", marginLeft: 8 }}
                                   />
-                                </Link>
+                                </a>
                               </div>
                             </div>
                           </li>
@@ -143,7 +146,7 @@ const NewsFeed = () => {
                                       style={{ color: "#0c8dac" }}
                                     />
                                     <Link to="/" className="username">
-                                      By Lorem
+                                      By Joe Hernandez
                                     </Link>
                                   </div>
                                   |
@@ -151,23 +154,26 @@ const NewsFeed = () => {
                                     <FontAwesomeIcon
                                       icon={faCalendarDays}
                                       style={{ color: "#0c8dac" }}
-                                    />{" "}
+                                    />
                                     <Link to="/" className="text">
-                                      April 21, 2022
+                                      Sept. 22nd, 2022
                                     </Link>
                                   </div>
                                 </div>
                                 <p className="card-box__text">
-                                  Lorem ipsum dolor sit, amet consectetur
-                                  adipisicing elit. Cum, quisquam!
+                                  Some gambling content has been banned from
+                                  Twitch after one
                                 </p>
-                                <Link to="/" className="readmore">
+                                <a
+                                  href="https://www.npr.org/2022/09/22/1124384092/twitch-bans-some-gambling-content-after-an-outcry-from-streamers"
+                                  className="readmore"
+                                >
                                   <span className="text">Read More</span>
                                   <FontAwesomeIcon
                                     icon={faArrowRight}
-                                    style={{ color: "#cb0e52" }}
+                                    style={{ color: "#cb0e52", marginLeft: 8 }}
                                   />
-                                </Link>
+                                </a>
                               </div>
                             </div>
                           </li>
@@ -204,7 +210,7 @@ const NewsFeed = () => {
                                       style={{ color: "#0c8dac" }}
                                     />
                                     <Link to="/" className="username">
-                                      By Lorem
+                                      By Austen Goslin
                                     </Link>
                                   </div>
                                   |
@@ -214,21 +220,24 @@ const NewsFeed = () => {
                                       style={{ color: "#0c8dac" }}
                                     />{" "}
                                     <Link to="/" className="text">
-                                      April 21, 2022
+                                      September 27th, 2022
                                     </Link>
                                   </div>
                                 </div>
                                 <p className="card-box__text">
-                                  Lorem ipsum dolor sit, amet consectetur
-                                  adipisicing elit. Cum, quisquam!
+                                  From scamming drama to a ban on gambling
+                                  streams , Twitch
                                 </p>
-                                <Link to="/" className="readmore">
+                                <a
+                                  href="https://www.polygon.com/23374984/twitch-streamers-revenue-youtube-move"
+                                  className="readmore"
+                                >
                                   <span className="text">Read More</span>
                                   <FontAwesomeIcon
                                     icon={faArrowRight}
-                                    style={{ color: "#cb0e52" }}
+                                    style={{ color: "#cb0e52", marginLeft: 8 }}
                                   />
-                                </Link>
+                                </a>
                               </div>
                             </div>
                           </li>
@@ -259,7 +268,7 @@ const NewsFeed = () => {
                           style={{ color: "#0c8dac" }}
                         />
                         <Link to="/" className="username">
-                          By Lorem
+                          By Youbie
                         </Link>
                       </div>
                       |
@@ -270,25 +279,26 @@ const NewsFeed = () => {
                           style={{ color: "#0c8dac" }}
                         />
                         <Link to="/" className="text">
-                          April 21, 2022
+                          September 17th, 2022
                         </Link>
                       </div>
                     </div>
-                    <h4 className="card-box__title">Website Development</h4>
+                    <h4 className="card-box__title">Youbie Platform Launch</h4>
                     <p className="card-box__text">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Suscipit repellendus, minus doloremque eaque asperiores
-                      cumque voluptatum, explicabo doloribus obcaecati iste
-                      nostrum animi voluptas harum accusamus sapiente quam, sunt
-                      cum laborum.
+                      Youbie Token is a newly developed digital platform that
+                      offers a wide range of digital services. In the recent
+                      development, the company announced the official
                     </p>
-                    <Link to="/" className="readmore">
+                    <a
+                      href="https://finance.yahoo.com/news/youbie-token-announces-official-launch-020000444.html?.tsrc=fin-srch"
+                      className="readmore"
+                    >
                       <span className="text">Read More </span>
                       <FontAwesomeIcon
                         icon={faArrowRight}
                         style={{ color: "#cb0e52" }}
                       />
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>

@@ -213,22 +213,33 @@
   z-index: 99999;
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
+  animation: modal 0.2s ease-in-out;
+
+  display: grid;
+  place-items: center;
 }
 #modal .modalContent {
   width: 80%;
   background-color: #100032;
   border-radius: 16px;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 240px;
   padding: 80px 16px;
   position: relative;
+  box-shadow: 0 0 80px black;
+  text-align: center;
+  color: #0acfff;
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(0.875rem + 1vmin);
+  font-weight: 600;
+  letter-spacing: 0.125rem;
+  animation: modal-content 0.2s ease-in-out;
 }
 #modal .modalContent .closeModal {
   width: 24px;
   height: 24px;
   background-color: #0cc6ef;
   color: #100032;
+  font-size: 16px;
+  letter-spacing: 0;
   font-weight: bold;
   cursor: pointer;
   border-radius: 50%;
@@ -241,6 +252,27 @@
   background-color: hotpink;
   scale: 1.1;
 }
+
+@keyframes modal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes modal-content {
+  0% {
+    scale: 0;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
 /*Responsive css*/
 /* Small Devices */
 @media screen and (min-width: 576px) {
@@ -254,10 +286,8 @@
     min-width: 146px;
     max-width: 185px;
   }
-  #modal .modalContent {
-    width: 50%;
-  }
 }
+
 @media screen and (max-width: 576px) {
   /* Hero */
   .hero::before {
@@ -275,6 +305,9 @@
     height: 764px;
     left: 4%;
     bottom: -4.25rem;
+  }
+  #modal .modalContent {
+    width: 50%;
   }
 }
 

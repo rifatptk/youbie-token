@@ -1,11 +1,6 @@
 import React from "react";
 import "./Testimonial.css";
 import "@splidejs/react-splide/css";
-import coin from "../../assets/images/CoinMarketCap.png";
-import gecko from "../../assets/images/CoinGhecko.png";
-import lbank from "../../assets/images/LBank.png";
-import dex from "../../assets/images/Dextools.png";
-import latoken from "../../assets/images/LaToken.png";
 
 const Testimonial = () => {
   return (
@@ -16,15 +11,7 @@ const Testimonial = () => {
           <h2 className="heading__1" data-aos="fade-up">
             Supported By
           </h2>
-          <div className="text-center my-5">
-            <img className="brand" src={coin} alt="" />
-            <img className="brand" src={gecko} alt="" />
-            <img className="brand" src={lbank} alt="" />
-          </div>
-          <div className="text-center">
-            <img className="brand" src={dex} alt="" />
-            <img className="brand" src={latoken} alt="" />
-          </div>
+          <h4 className="comming-soon">Comming Soon</h4>
         </div>
       </section>
     </div>

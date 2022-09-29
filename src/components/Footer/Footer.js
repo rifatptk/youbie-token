@@ -161,9 +161,12 @@ const Footer = () => {
                           </Link>
                         </li>
                         <li className="footer-nav__item">
-                          <small className="text-white">
-                            contact@youbietoken.tv
-                          </small>
+                          <p
+                            className="footer-nav__item-link"
+                            style={{ textTransform: "unset" }}
+                          >
+                            contact@youbie.tv
+                          </p>
                         </li>
                       </ul>
                     </div>
