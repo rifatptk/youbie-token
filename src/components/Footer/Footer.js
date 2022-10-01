@@ -13,11 +13,6 @@ const Footer = () => {
                 <div className="row gx-4 gy-5">
                   <div className="col-sm-6" data-aos="fade-up">
                     <h2 className="heading__1">Youbie</h2>
-                    {/* <p className="para">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
-                    </p> */}
                   </div>
                   <div className="col-sm-6 d-none d-md-block">
                     <div className="widget" data-aos="fade-up">

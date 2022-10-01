@@ -1,6 +1,5 @@
 import React from "react";
 import "./Featured.css";
-import { Link } from "react-router-dom";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import featured2 from "../../assets/images/features-2.png";
@@ -65,9 +64,6 @@ const Featured = () => {
                         Our creator fees are only a max of 8%! That’s 22% lower
                         than our competitors!
                       </p>
-                      {/* <Link to="/" className="feature-box__link">
-                        Read More
-                      </Link> */}
                     </div>
                   </li>
                 </ul>
@@ -93,9 +89,6 @@ const Featured = () => {
                         physical marketplace, gaming tournaments, and premium
                         subscriptions.
                       </p>
-                      {/* <Link to="/" className="feature-box__link">
-                        Read More
-                      </Link> */}
                     </div>
                   </li>
                 </ul>
@@ -122,9 +115,6 @@ const Featured = () => {
                         BNB deposits! You can swap any of these assets directly
                         into $YouB.
                       </p>
-                      {/* <Link to="/" className="feature-box__link">
-                        Read More
-                      </Link> */}
                     </div>
                   </li>
                 </ul>
