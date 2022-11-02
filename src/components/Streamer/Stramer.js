@@ -1,28 +1,28 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./Streamer.css";
-import trend1 from "../../assets/images/str1.jpg";
-import trend2 from "../../assets/images/str2.jpg";
-import trend3 from "../../assets/images/str3.jpg";
-import trend4 from "../../assets/images/str4.jpg";
-import user1 from "../../assets/images/sts1.jpg";
-import user2 from "../../assets/images/sts2.jpg";
-import user3 from "../../assets/images/sts3.jpg";
-import user4 from "../../assets/images/sts4.jpg";
-import verifiedIcon from "../../assets/images/verified-icon.svg";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Streamer.css';
+import trend1 from '../../assets/images/str1.jpg';
+import trend2 from '../../assets/images/str2.jpg';
+import trend3 from '../../assets/images/str3.jpg';
+import trend4 from '../../assets/images/str4.jpg';
+import user1 from '../../assets/images/sts1.jpg';
+import user2 from '../../assets/images/sts2.jpg';
+import user3 from '../../assets/images/sts3.jpg';
+import user4 from '../../assets/images/sts4.jpg';
+import verifiedIcon from '../../assets/images/verified-icon.svg';
 
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/react-splide/css";
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css';
 
 const Stramer = () => {
   const sliderConfig = {
-    type: "loop",
+    type: 'loop',
     perPage: 1,
     gap: 10,
     arrows: false,
     autoplay: true,
     interval: 3000,
-    mediaQuery: "min",
+    mediaQuery: 'min',
     breakpoints: {
       576: {
         perPage: 2,
@@ -35,7 +35,7 @@ const Stramer = () => {
       },
       1200: {
         perPage: 4,
-        type: "slide",
+        type: 'slide',
         pagination: false,
       },
     },

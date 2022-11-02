@@ -1,10 +1,10 @@
-import React from "react";
-import "./Introduction.css";
-import introductionImg from "../../assets/images/competitor.gif";
+import React from 'react';
+import './Introduction.css';
+import introductionImg from '../../assets/images/competitor.gif';
 
 const Introduction = () => {
   return (
-    <div className="introduction-section py-5">
+    <div id="introduction" className="introduction-section py-5">
       <div className="container  ">
         <div className="row g-4 align-items-center justify-content-between">
           <div className="col-md-6" data-aos="fade-up">
@@ -12,7 +12,7 @@ const Introduction = () => {
             <p className="para">
               Congratulations, you have found the next decentralised
               cryptocurrency which is the backbone of the revolutionary
-              all-in-one streaming platform{" "}
+              all-in-one streaming platform{' '}
               <a href="https://youbie.tv">https://youbie.tv</a> . Introducing
               the first crypto-powered, DAO-operated 5-in-1 platform. Built for
               the community, by the community. We are lightyears ahead of our
